@@ -1,13 +1,17 @@
 # leetcodeSolutions
+the aim of this personal (and public) repository is to share my answers for leetcode questions
 
-# todo
-| QuestionId  | QuestionName |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+my leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
-# solved
-| QuestionId  | QuestionName |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
+## todo
+| questionId  | questionName | | questionLink |
+| ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  |
+
+## solved
+| questionId  | questionName | | questionLink | questionLink |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
