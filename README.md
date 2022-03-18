@@ -7,8 +7,11 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 ## todo
 | questionId | questionName                           | questionLink                                                                  |
 |------------|----------------------------------------|-------------------------------------------------------------------------------|
+| 1          | Two Sum                                | [link](https://leetcode.com/problems/two-sum/)                                |
 | 15         | 3Sum                                   | [link](https://leetcode.com/problems/3sum/)                                   |
- | 923        | 3Sum With Multiplicity                 | [link](https://leetcode.com/problems/3sum-with-multiplicity/)                 |
+| 200        | Number of Islands                      | [link](https://leetcode.com/problems/number-of-islands/)                      |
+| 713        | Subarray Product Less Than K           | [link](https://leetcode.com/problems/subarray-product-less-than-k/)           |
+| 923        | 3Sum With Multiplicity                 | [link](https://leetcode.com/problems/3sum-with-multiplicity/)                 |
 | 1687       | Delivering Boxes from Storage to Ports | [link](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/) |
 
 
@@ -32,3 +35,10 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | 1351       | Count Negative Numbers in a Sorted Matrix      | [link](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)      | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/CountNegativeNumbersSortedMatrix.php)                                                                            |
 | 1475       | Final Prices With a Special Discount in a Shop | [link](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/FinalPricesWithSpecialDiscountShop.py)                                                                           |
 | 1739       | Building Boxes                                 | [link](https://leetcode.com/problems/building-boxes/)                                 | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/hard/BuildingBoxes.py)                                                                                                |
+| 680        | Valid Palindrome II                            | [link](https://leetcode.com/problems/valid-palindrome-ii/)                            |||
+| 125        | Valid Palindrome                               | [link](https://leetcode.com/problems/valid-palindrome/)                               |||
+| 63         | Unique Paths II                                | [link](https://leetcode.com/problems/unique-paths-ii/)                                |||
+| 129        | Sum Root to Leaf Numbers                       | [link](https://leetcode.com/problems/sum-root-to-leaf-numbers/)                       |||
+| 994        | Rotting Oranges                                | [link](https://leetcode.com/problems/rotting-oranges/)                                |||
+| 203        | Remove Linked List Elements                    | [link](https://leetcode.com/problems/remove-linked-list-elements/)                    |||
+| 112        | Path Sum                                       | [link](https://leetcode.com/problems/path-sum/)                                       |||
