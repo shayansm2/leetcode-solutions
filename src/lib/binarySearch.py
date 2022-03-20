@@ -10,7 +10,7 @@ def iterative_binary_search(array, target):
         if array[mid] == target:
             return mid
 
-        elif array[mid] < target:
+        if array[mid] < target:
             low = mid + 1
             continue
 
