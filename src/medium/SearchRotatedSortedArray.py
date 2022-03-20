@@ -2,62 +2,36 @@ from typing import List
 
 
 class Solution:
+    def __init__(self):
+        self.target = None
+        self.nums = None
+
     def search(self, nums: List[int], target: int) -> int:
-        k = self.find_rotation_pivot(nums)
-        if k != -1:
-            nums = nums[k + 1:] + nums[:k + 1]
-        position = self.binary_search(nums, target)
+        self.nums = nums
+        self.target = target
+        return self.binary_search(0, len(nums) - 1, False)
 
-        return (position + k + 1) % len(nums) if position != -1 else -1
+    def binary_search(self, start: int, end: int, is_sorted: bool) -> int:
+        if end < start:
+            return -1
 
-    def find_rotation_pivot(self, nums) -> int:
-        start = 0  # inclusive
-        end = len(nums)  # exclusive
+        mid = start + (end - start) // 2
+        print(self.nums[start:end + 1], self.nums[mid], self.target, is_sorted)
 
-        while start + 1 < end:
-            mid = start + ((end - start) // 2)
+        if self.nums[mid] == self.target:
+            return mid
 
-            if mid + 1 >= end:
-                return -1
+        if is_sorted:
+            if self.nums[mid] > self.target:
+                return self.binary_search(start, mid - 1, True)
 
-            if nums[mid] > nums[mid + 1]:
-                return mid
+            return self.binary_search(mid + 1, end, True)
 
-            if nums[mid] > nums[end - 1]:
-                start = mid + 1
-                continue
+        if self.nums[mid] > self.target:
+            return self.binary_search(start, mid - 1, self.nums[mid] >= self.nums[start])
 
-            end = mid
-
-        if start + 1 == end:
-            if start + 1 >= end:
-                return -1
-
-            if nums[start] > nums[start + 1]:
-                return start
-
-        return -1
-
-    def binary_search(self, nums, target) -> int:
-        start = 0  # inclusive
-        end = len(nums)  # exclusive
-
-        while start + 1 < end:
-            mid = start + ((end - start) // 2)
-
-            if nums[mid] == target:
-                return mid
-
-            if nums[mid] < target:
-                start = mid + 1
-                continue
-
-            end = mid
-
-        if start + 1 == end and nums[start] == target:
-            return start
-
-        return -1
+        if self.nums[mid] < self.target:
+            return self.binary_search(mid + 1, end, self.nums[end] >= self.nums[mid])
 
 
 print(Solution().search([6, 7, 8, 9, 10, 11, 13, 15, 0, 1, 2, 3, 5], 8))
