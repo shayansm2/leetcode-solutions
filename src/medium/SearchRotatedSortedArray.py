@@ -16,7 +16,7 @@ class Solution:
             return -1
 
         mid = start + (end - start) // 2
-        print(self.nums[start:end + 1], self.nums[mid], self.target, is_sorted)
+        # print(self.nums[start:end + 1], self.nums[mid], self.target, is_sorted)
 
         if self.nums[mid] == self.target:
             return mid
@@ -27,11 +27,16 @@ class Solution:
 
             return self.binary_search(mid + 1, end, True)
 
-        if self.nums[mid] > self.target:
-            return self.binary_search(start, mid - 1, self.nums[mid] >= self.nums[start])
+        if self.nums[start] <= self.target <= self.nums[mid]:
+            return self.binary_search(start, mid - 1, True)
 
-        if self.nums[mid] < self.target:
-            return self.binary_search(mid + 1, end, self.nums[end] >= self.nums[mid])
+        if self.nums[mid] <= self.target <= self.nums[end]:
+            return self.binary_search(mid + 1, end, True)
+
+        if self.nums[start] <= self.nums[mid]:
+            return self.binary_search(mid + 1, end, False)
+
+        return self.binary_search(start, mid - 1, False)
 
 
 print(Solution().search([6, 7, 8, 9, 10, 11, 13, 15, 0, 1, 2, 3, 5], 8))
