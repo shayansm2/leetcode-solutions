@@ -10,8 +10,10 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | 1          | Two Sum                                | [link](https://leetcode.com/problems/two-sum/)                                |
 | 15         | 3Sum                                   | [link](https://leetcode.com/problems/3sum/)                                   |
 | 200        | Number of Islands                      | [link](https://leetcode.com/problems/number-of-islands/)                      |
+| 337        | House Robber III                       | [link](https://leetcode.com/problems/house-robber-iii/)                       |
 | 713        | Subarray Product Less Than K           | [link](https://leetcode.com/problems/subarray-product-less-than-k/)           |
 | 923        | 3Sum With Multiplicity                 | [link](https://leetcode.com/problems/3sum-with-multiplicity/)                 |
+| 1383       | Maximum Performance of a Team          | [link](https://leetcode.com/problems/maximum-performance-of-a-team/)          |
 | 1687       | Delivering Boxes from Storage to Ports | [link](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/) |
 
 
@@ -44,3 +46,8 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | 1351       | Count Negative Numbers in a Sorted Matrix               | [link](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)               | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/CountNegativeNumbersSortedMatrix.php)                                                                            |
 | 1475       | Final Prices With a Special Discount in a Shop          | [link](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)          | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/FinalPricesWithSpecialDiscountShop.py)                                                                           |
 | 1739       | Building Boxes                                          | [link](https://leetcode.com/problems/building-boxes/)                                          | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/hard/BuildingBoxes.py)                                                                                                |
+| 3          | Longest Substring Without Repeating Characters          | [link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)          |                                                                                                                                                                                           |
+| 202        | Happy Number                                            | [link](https://leetcode.com/problems/happy-number/)                                            ||
+| 278        | First Bad Version                                       | [link](https://leetcode.com/problems/first-bad-version/)                                       |                                                                                                                                                                                           |
+| 997        | Find the Town Judge                                     | [link](https://leetcode.com/problems/find-the-town-judge/)                                     ||
+| 509        | Fibonacci Number                                        | [link](https://leetcode.com/problems/fibonacci-number/)                                        ||
