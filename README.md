@@ -6,17 +6,17 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
 ## todo
 
-| questionId | questionName                                | questionLink                                                                       |
-|------------|---------------------------------------------|------------------------------------------------------------------------------------|
-| 1 (E)      | Two Sum                                     | [link](https://leetcode.com/problems/two-sum/)                                     |
-| 15 (M)     | 3Sum                                        | [link](https://leetcode.com/problems/3sum/)                                        |
-| 200 (M)    | Number of Islands                           | [link](https://leetcode.com/problems/number-of-islands/)                           |
-| 337 (M)    | House Robber III                            | [link](https://leetcode.com/problems/house-robber-iii/)                            |
-| 668 (H)    | Kth Smallest Number in Multiplication Table | [link](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) |
-| 713 (M)    | Subarray Product Less Than K                | [link](https://leetcode.com/problems/subarray-product-less-than-k/)                |
-| 923 (M)    | 3Sum With Multiplicity                      | [link](https://leetcode.com/problems/3sum-with-multiplicity/)                      |
-| 1383 (H)   | Maximum Performance of a Team               | [link](https://leetcode.com/problems/maximum-performance-of-a-team/)               |
-| 1687 (H)   | Delivering Boxes from Storage to Ports      | [link](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)      |
+| questionId                           | questionName                                | questionLink                                                                       |
+|--------------------------------------|---------------------------------------------|------------------------------------------------------------------------------------|
+| <span style="color:green">1</span>   | Two Sum                                     | [link](https://leetcode.com/problems/two-sum/)                                     |
+| <span style="color:yellow">15</span> | 3Sum                                        | [link](https://leetcode.com/problems/3sum/)                                        |
+| 200 (M)                              | Number of Islands                           | [link](https://leetcode.com/problems/number-of-islands/)                           |
+| 337 (M)                              | House Robber III                            | [link](https://leetcode.com/problems/house-robber-iii/)                            |
+| 668 (H)                              | Kth Smallest Number in Multiplication Table | [link](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) |
+| 713 (M)                              | Subarray Product Less Than K                | [link](https://leetcode.com/problems/subarray-product-less-than-k/)                |
+| 923 (M)                              | 3Sum With Multiplicity                      | [link](https://leetcode.com/problems/3sum-with-multiplicity/)                      |
+| 1383 (H)                             | Maximum Performance of a Team               | [link](https://leetcode.com/problems/maximum-performance-of-a-team/)               |
+| 1687 (H)                             | Delivering Boxes from Storage to Ports      | [link](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)      |
 
 
 
