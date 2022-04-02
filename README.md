@@ -123,6 +123,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 
 
 ## unsolved problems
+
 | id                                    | question                                                                                                                  |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | <span style="color:red">668</span>    | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) |
