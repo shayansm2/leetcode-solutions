@@ -4,7 +4,7 @@ The aim of this personal (and public) repository is to share my answers to leetc
 
 My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
-# todo
+# TODO
 My plan for the next 6 month is to solve 75 blind questions from this [link](https://www.techinterviewhandbook.org/best-practice-questions/). \
 Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
@@ -123,7 +123,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 
 
 
-## unsolved problems
+# Unsolved Problems
 
 | id                                    | question                                                                                                                  |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
@@ -136,7 +136,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 
 
 
-# solved
+# Solved Problems
 
 | id                                     | question                                                                                                                                          | myAnswe                                                                                                                                                                                                                                                 |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
