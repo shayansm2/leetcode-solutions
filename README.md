@@ -4,8 +4,8 @@ The aim of this personal (and public) repository is to share my answers to leetc
 
 My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
-## todo
-My plan for the next 6 month is to solve 75 blind questions from this [link](https://www.techinterviewhandbook.org/best-practice-questions/).
+# todo
+My plan for the next 6 month is to solve 75 blind questions from this [link](https://www.techinterviewhandbook.org/best-practice-questions/). \
 Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 
 ### Array
@@ -122,7 +122,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
 
-
+## unsolved problems
 | id                                    | question                                                                                                                  |
 |---------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | <span style="color:red">668</span>    | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) |
@@ -131,9 +131,12 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 | <span style="color:red">1383</span>   | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                             |
 | <span style="color:red">1687</span>   | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)           |
 
+
+
 ---
 
-## solved
+
+# solved
 
 | id                                     | question                                                                                                                                          | myAnswe                                                                                                                                                                                                                                                 |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
