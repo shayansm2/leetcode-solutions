@@ -5,8 +5,10 @@ The aim of this personal (and public) repository is to share my answers to leetc
 My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
 # TODO
-My plan for the next 6 month is to solve 75 blind questions from this [link](https://www.techinterviewhandbook.org/best-practice-questions/). \
-Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+My plan for the next 6 month is to solve 75 blind questions from this [link](https://leetcode.com/study-plan/leetcode-75/). \
+Important Links: 
+1. [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+2. [Best practice questions](https://www.techinterviewhandbook.org/best-practice-questions/)
 
 ### Array
 
@@ -16,7 +18,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 - [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+- [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 - [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [ ] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
@@ -51,7 +53,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
 - [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
 - [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-- [ ] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+- [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
 - [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)
 - [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)
@@ -69,7 +71,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 
 ### Linked List
 
-- [ ] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
 - [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
@@ -79,7 +81,7 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 
 ### Matrix
 
-- [ ] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
+- [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
@@ -91,9 +93,9 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 - [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
 - [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 - [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-- [ ] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
+- [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [ ] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+- [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
 - [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)
@@ -102,9 +104,9 @@ Important Link: [14 Patterns to Ace Any Coding Interview Question](https://hacke
 ### Tree
 - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
-- [ ] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+- [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-- [ ] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
 - [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
