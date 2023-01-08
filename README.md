@@ -4,12 +4,14 @@ The aim of this personal (and public) repository is to share my answers to leetc
 
 My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
-# TODO
-My plan for the next 6 month is to solve 75 blind questions from this [link](https://leetcode.com/study-plan/leetcode-75/). \
-Important Links: 
-1. [14 Patterns to Ace Any Coding Interview Question](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
-2. [Best practice questions](https://www.techinterviewhandbook.org/best-practice-questions/)
+[//]: # (# TODO)
+[//]: # (My plan for the next 6 month is to solve 75 blind questions from this [link]&#40;https://leetcode.com/study-plan/leetcode-75/&#41;. \)
+[//]: # (Important Links: )
+[//]: # (1. [14 Patterns to Ace Any Coding Interview Question]&#40;https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed&#41;)
+[//]: # (2. [Best practice questions]&#40;https://www.techinterviewhandbook.org/best-practice-questions/&#41;)
 
+
+## Famous 75 Leetcode problems
 ### Array
 
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
@@ -164,6 +166,7 @@ Important Links:
 | <span style="color:green">125</span>   | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                                                               | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidPalindrome.php)                                                                                                                                                           |
 | <span style="color:yellow">129</span>  | [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/)                                                               | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/SumRootLeafNumbers.php)                                                                                                                                                      |
 | <span style="color:green">144</span>   | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                                                   | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/BinaryTreePreorderTraversal.py)                                                                                                                                                | 
+| <span style="color:red">149</span>     | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/description/)                                                           | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/hard/MaxPointsLine.py)                                                                                                                                                              |
 | <span style="color:yellow">184</span>  | [Department Highest Salary](https://leetcode.com/problems/department-highest-salary/)                                                             | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/DepartmentHighestSalary.sql)                                                                                                                                                 |
 | <span style="color:yellow">199</span>  | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)                                                         | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/BinaryTreeRightSideView.py)                                                                                                                                                  |
 | <span style="color:yellow">200</span>  | [Number of Islands](https://leetcode.com/problems/number-of-islands/)                                                                             | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/NumberOfIslands.py)                                                                                                                                                          |
