@@ -5,13 +5,16 @@ The aim of this personal (and public) repository is to share my answers to leetc
 My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
 [//]: # (# TODO)
+
 [//]: # (My plan for the next 6 month is to solve 75 blind questions from this [link]&#40;https://leetcode.com/study-plan/leetcode-75/&#41;. \)
 [//]: # (Important Links: )
+
 [//]: # (1. [14 Patterns to Ace Any Coding Interview Question]&#40;https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed&#41;)
+
 [//]: # (2. [Best practice questions]&#40;https://www.techinterviewhandbook.org/best-practice-questions/&#41;)
 
-
 ## Famous 75 Leetcode problems
+
 ### Array
 
 - [x] [Two Sum](https://leetcode.com/problems/two-sum/)
@@ -25,7 +28,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [3Sum](https://leetcode.com/problems/3sum/)
 - [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
-
 ### Binary
 
 - [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
@@ -33,7 +35,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
 - [ ] [Missing Number](https://leetcode.com/problems/missing-number/)
 - [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
-
 
 ### Dynamic Programming
 
@@ -49,7 +50,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [x] [Jump Game](https://leetcode.com/problems/jump-game/)
 
-
 ### Graph
 
 - [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
@@ -61,7 +61,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)
 - [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
 
-
 ### Interval
 
 - [ ] [Insert Interval](https://leetcode.com/problems/insert-interval/)
@@ -69,7 +68,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 - [ ] [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
 - [ ] [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
-
 
 ### Linked List
 
@@ -80,14 +78,12 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
 - [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
 
-
 ### Matrix
 
 - [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 - [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
 - [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
 - [ ] [Word Search](https://leetcode.com/problems/word-search/)
-
 
 ### String
 
@@ -102,8 +98,8 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)
 
-
 ### Tree
+
 - [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
 - [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
@@ -125,8 +121,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 - [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 
-
-
 # Unsolved (todos) Problems
 
 | id                                    | question                                                                                                                  |
@@ -141,9 +135,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:yellow">923</span> | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)                                           |
 | <span style="color:red">1383</span>   | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                             |
 | <span style="color:red">1687</span>   | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)           |
-
-
-
 
 # Solved Problems
 
@@ -160,6 +151,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:yellow">63</span>   | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                                                                 | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/uniquePathsWithObstacles.php)                                                                                                                                                |
 | <span style="color:yellow">73</span>   | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                                                                             | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/SetMatrixZeroes.py)                                                                                                                                                          |
 | <span style="color:green">94</span>    | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                     | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/BinaryTreeInorderTraversal.py)                                                                                                                                                 |
+| <span style="color:green">100</span>   | [Same Tree](https://leetcode.com/problems/same-tree/description/)                                                                                 | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/SameTree.py)                                                                                                                                                                   |
 | <span style="color:yellow">102</span>  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                             | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/BinaryTreeLevelOrderTraversal.py)                                                                                                                                            |
 | <span style="color:green">112</span>   | [Path Sum](https://leetcode.com/problems/path-sum/)                                                                                               | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/PathSum.py)                                                                                                                                                                    |
 | <span style="color:green">121</span>   | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)                                                 | [link](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/BestTimeToBuyAndSellStock.py)                                                                                                                                                  |
