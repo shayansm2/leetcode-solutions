@@ -4,7 +4,7 @@ The aim of this personal (and public) repository is to share my answers to leetc
 
 My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
-[//]: # (# TODO)
+[//]: # (# TODO put all of this 75 and 150 questions for when i'm want to make ready for algorithm interview sessions)
 
 [//]: # (My plan for the next 6 month is to solve 75 blind questions from this [link]&#40;https://leetcode.com/study-plan/leetcode-75/&#41;. \)
 [//]: # (Important Links: )
@@ -13,132 +13,118 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
 [//]: # (2. [Best practice questions]&#40;https://www.techinterviewhandbook.org/best-practice-questions/&#41;)
 
-## Famous 75 Leetcode problems
-
-### Array
-
-- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [x] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [x] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-- [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [x] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] [3Sum](https://leetcode.com/problems/3sum/)
-- [ ] [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
-
-### Binary
-
-- [ ] [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)
-- [ ] [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
-- [ ] [Counting Bits](https://leetcode.com/problems/counting-bits/)
-- [ ] [Missing Number](https://leetcode.com/problems/missing-number/)
-- [ ] [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
-
-### Dynamic Programming
-
-- [x] [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
-- [ ] [Coin Change](https://leetcode.com/problems/coin-change/)
-- [ ] [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [ ] [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)
-- [ ] [Word Break Problem](https://leetcode.com/problems/word-break/)
-- [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
-- [ ] [House Robber](https://leetcode.com/problems/house-robber/)
-- [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
-- [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
-- [x] [Jump Game](https://leetcode.com/problems/jump-game/)
-
-### Graph
-
-- [ ] [Clone Graph](https://leetcode.com/problems/clone-graph/)
-- [ ] [Course Schedule](https://leetcode.com/problems/course-schedule/)
-- [ ] [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
-- [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
-- [ ] [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
-- [ ] [Alien Dictionary (Leetcode Premium)](https://leetcode.com/problems/alien-dictionary/)
-- [ ] [Graph Valid Tree (Leetcode Premium)](https://leetcode.com/problems/graph-valid-tree/)
-- [ ] [Number of Connected Components in an Undirected Graph (Leetcode Premium)](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/)
-
-### Interval
-
-- [ ] [Insert Interval](https://leetcode.com/problems/insert-interval/)
-- [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-- [ ] [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-- [ ] [Meeting Rooms (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms/)
-- [ ] [Meeting Rooms II (Leetcode Premium)](https://leetcode.com/problems/meeting-rooms-ii/)
-
-### Linked List
-
-- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)
-- [ ] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
-- [x] [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)
-- [ ] [Reorder List](https://leetcode.com/problems/reorder-list/)
-
-### Matrix
-
-- [x] [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
-- [ ] [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)
-- [ ] [Rotate Image](https://leetcode.com/problems/rotate-image/)
-- [ ] [Word Search](https://leetcode.com/problems/word-search/)
-
-### String
-
-- [x] [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
-- [ ] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/)
-- [ ] [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
-- [ ] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
-- [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [ ] [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
-- [x] [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [ ] [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
-- [ ] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-- [ ] [Encode and Decode Strings (Leetcode Premium)](https://leetcode.com/problems/encode-and-decode-strings/)
-
-### Tree
-
-- [ ] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
-- [ ] [Same Tree](https://leetcode.com/problems/same-tree/)
-- [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-- [ ] [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
-- [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- [ ] [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
-- [ ] [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
-- [ ] [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
-- [ ] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-- [ ] [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-- [x] [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
-- [ ] [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)
-- [ ] [Add and Search Word](https://leetcode.com/problems/add-and-search-word-data-structure-design/)
-- [ ] [Word Search II](https://leetcode.com/problems/word-search-ii/)
-
-### Heap
-
-- [ ] [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-- [ ] [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-- [ ] [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
-
-# Unsolved (todos) Problems
-
-| id                                    | question                                                                                                                  |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| <span style="color:yellow">98</span>  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                 |
-| <span style="color:yellow">142</span> | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                               |
-| <span style="color:red">668</span>    | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) |
-| <span style="color:green">704</span>  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                             |
-| <span style="color:yellow">713</span> | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)                               |
-| <span style="color:green">724</span>  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                                                       |
-| <span style="color:green">876</span>  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                     |
-| <span style="color:yellow">923</span> | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)                                           |
-| <span style="color:red">1383</span>   | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                             |
-| <span style="color:red">1687</span>   | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)           |
+[//]: # (## Famous 75 Leetcode problems)
+[//]: # ()
+[//]: # (### Array)
+[//]: # ()
+[//]: # (- [x] [Two Sum]&#40;https://leetcode.com/problems/two-sum/&#41;)
+[//]: # (- [x] [Best Time to Buy and Sell Stock]&#40;https://leetcode.com/problems/best-time-to-buy-and-sell-stock/&#41;)
+[//]: # (- [x] [Contains Duplicate]&#40;https://leetcode.com/problems/contains-duplicate/&#41;)
+[//]: # (- [ ] [Product of Array Except Self]&#40;https://leetcode.com/problems/product-of-array-except-self/&#41;)
+[//]: # (- [x] [Maximum Subarray]&#40;https://leetcode.com/problems/maximum-subarray/&#41;)
+[//]: # (- [ ] [Maximum Product Subarray]&#40;https://leetcode.com/problems/maximum-product-subarray/&#41;)
+[//]: # (- [x] [Find Minimum in Rotated Sorted Array]&#40;https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/&#41;)
+[//]: # (- [x] [Search in Rotated Sorted Array]&#40;https://leetcode.com/problems/search-in-rotated-sorted-array/&#41;)
+[//]: # (- [ ] [3Sum]&#40;https://leetcode.com/problems/3sum/&#41;)
+[//]: # (- [ ] [Container With Most Water]&#40;https://leetcode.com/problems/container-with-most-water/&#41;)
+[//]: # ()
+[//]: # (### Binary)
+[//]: # ()
+[//]: # (- [ ] [Sum of Two Integers]&#40;https://leetcode.com/problems/sum-of-two-integers/&#41;)
+[//]: # (- [ ] [Number of 1 Bits]&#40;https://leetcode.com/problems/number-of-1-bits/&#41;)
+[//]: # (- [ ] [Counting Bits]&#40;https://leetcode.com/problems/counting-bits/&#41;)
+[//]: # (- [ ] [Missing Number]&#40;https://leetcode.com/problems/missing-number/&#41;)
+[//]: # (- [ ] [Reverse Bits]&#40;https://leetcode.com/problems/reverse-bits/&#41;)
+[//]: # ()
+[//]: # (### Dynamic Programming)
+[//]: # ()
+[//]: # (- [x] [Climbing Stairs]&#40;https://leetcode.com/problems/climbing-stairs/&#41;)
+[//]: # (- [ ] [Coin Change]&#40;https://leetcode.com/problems/coin-change/&#41;)
+[//]: # (- [ ] [Longest Increasing Subsequence]&#40;https://leetcode.com/problems/longest-increasing-subsequence/&#41;)
+[//]: # (- [ ] [Longest Common Subsequence]&#40;https://leetcode.com/problems/longest-common-subsequence/&#41;)
+[//]: # (- [ ] [Word Break Problem]&#40;https://leetcode.com/problems/word-break/&#41;)
+[//]: # (- [ ] [Combination Sum]&#40;https://leetcode.com/problems/combination-sum-iv/&#41;)
+[//]: # (- [ ] [House Robber]&#40;https://leetcode.com/problems/house-robber/&#41;)
+[//]: # (- [ ] [House Robber II]&#40;https://leetcode.com/problems/house-robber-ii/&#41;)
+[//]: # (- [ ] [Decode Ways]&#40;https://leetcode.com/problems/decode-ways/&#41;)
+[//]: # (- [ ] [Unique Paths]&#40;https://leetcode.com/problems/unique-paths/&#41;)
+[//]: # (- [x] [Jump Game]&#40;https://leetcode.com/problems/jump-game/&#41;)
+[//]: # ()
+[//]: # (### Graph)
+[//]: # ()
+[//]: # (- [ ] [Clone Graph]&#40;https://leetcode.com/problems/clone-graph/&#41;)
+[//]: # (- [ ] [Course Schedule]&#40;https://leetcode.com/problems/course-schedule/&#41;)
+[//]: # (- [ ] [Pacific Atlantic Water Flow]&#40;https://leetcode.com/problems/pacific-atlantic-water-flow/&#41;)
+[//]: # (- [x] [Number of Islands]&#40;https://leetcode.com/problems/number-of-islands/&#41;)
+[//]: # (- [ ] [Longest Consecutive Sequence]&#40;https://leetcode.com/problems/longest-consecutive-sequence/&#41;)
+[//]: # (- [ ] [Alien Dictionary &#40;Leetcode Premium&#41;]&#40;https://leetcode.com/problems/alien-dictionary/&#41;)
+[//]: # (- [ ] [Graph Valid Tree &#40;Leetcode Premium&#41;]&#40;https://leetcode.com/problems/graph-valid-tree/&#41;)
+[//]: # (- [ ] [Number of Connected Components in an Undirected Graph &#40;Leetcode Premium&#41;]&#40;https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/&#41;)
+[//]: # ()
+[//]: # (### Interval)
+[//]: # ()
+[//]: # (- [ ] [Insert Interval]&#40;https://leetcode.com/problems/insert-interval/&#41;)
+[//]: # (- [ ] [Merge Intervals]&#40;https://leetcode.com/problems/merge-intervals/&#41;)
+[//]: # (- [ ] [Non-overlapping Intervals]&#40;https://leetcode.com/problems/non-overlapping-intervals/&#41;)
+[//]: # (- [ ] [Meeting Rooms &#40;Leetcode Premium&#41;]&#40;https://leetcode.com/problems/meeting-rooms/&#41;)
+[//]: # (- [ ] [Meeting Rooms II &#40;Leetcode Premium&#41;]&#40;https://leetcode.com/problems/meeting-rooms-ii/&#41;)
+[//]: # ()
+[//]: # (### Linked List)
+[//]: # ()
+[//]: # (- [x] [Reverse a Linked List]&#40;https://leetcode.com/problems/reverse-linked-list/&#41;)
+[//]: # (- [ ] [Detect Cycle in a Linked List]&#40;https://leetcode.com/problems/linked-list-cycle/&#41;)
+[//]: # (- [x] [Merge Two Sorted Lists]&#40;https://leetcode.com/problems/merge-two-sorted-lists/&#41;)
+[//]: # (- [ ] [Merge K Sorted Lists]&#40;https://leetcode.com/problems/merge-k-sorted-lists/&#41;)
+[//]: # (- [ ] [Remove Nth Node From End Of List]&#40;https://leetcode.com/problems/remove-nth-node-from-end-of-list/&#41;)
+[//]: # (- [ ] [Reorder List]&#40;https://leetcode.com/problems/reorder-list/&#41;)
+[//]: # ()
+[//]: # (### Matrix)
+[//]: # ()
+[//]: # (- [x] [Set Matrix Zeroes]&#40;https://leetcode.com/problems/set-matrix-zeroes/&#41;)
+[//]: # (- [ ] [Spiral Matrix]&#40;https://leetcode.com/problems/spiral-matrix/&#41;)
+[//]: # (- [ ] [Rotate Image]&#40;https://leetcode.com/problems/rotate-image/&#41;)
+[//]: # (- [ ] [Word Search]&#40;https://leetcode.com/problems/word-search/&#41;)
+[//]: # ()
+[//]: # (### String)
+[//]: # ()
+[//]: # (- [x] [Longest Substring Without Repeating Characters]&#40;https://leetcode.com/problems/longest-substring-without-repeating-characters/&#41;)
+[//]: # (- [ ] [Longest Repeating Character Replacement]&#40;https://leetcode.com/problems/longest-repeating-character-replacement/&#41;)
+[//]: # (- [ ] [Minimum Window Substring]&#40;https://leetcode.com/problems/minimum-window-substring/&#41;)
+[//]: # (- [ ] [Valid Anagram]&#40;https://leetcode.com/problems/valid-anagram/&#41;)
+[//]: # (- [x] [Group Anagrams]&#40;https://leetcode.com/problems/group-anagrams/&#41;)
+[//]: # (- [ ] [Valid Parentheses]&#40;https://leetcode.com/problems/valid-parentheses/&#41;)
+[//]: # (- [x] [Valid Palindrome]&#40;https://leetcode.com/problems/valid-palindrome/&#41;)
+[//]: # (- [ ] [Longest Palindromic Substring]&#40;https://leetcode.com/problems/longest-palindromic-substring/&#41;)
+[//]: # (- [ ] [Palindromic Substrings]&#40;https://leetcode.com/problems/palindromic-substrings/&#41;)
+[//]: # (- [ ] [Encode and Decode Strings &#40;Leetcode Premium&#41;]&#40;https://leetcode.com/problems/encode-and-decode-strings/&#41;)
+[//]: # ()
+[//]: # (### Tree)
+[//]: # ()
+[//]: # (- [ ] [Maximum Depth of Binary Tree]&#40;https://leetcode.com/problems/maximum-depth-of-binary-tree/&#41;)
+[//]: # (- [ ] [Same Tree]&#40;https://leetcode.com/problems/same-tree/&#41;)
+[//]: # (- [x] [Invert/Flip Binary Tree]&#40;https://leetcode.com/problems/invert-binary-tree/&#41;)
+[//]: # (- [ ] [Binary Tree Maximum Path Sum]&#40;https://leetcode.com/problems/binary-tree-maximum-path-sum/&#41;)
+[//]: # (- [x] [Binary Tree Level Order Traversal]&#40;https://leetcode.com/problems/binary-tree-level-order-traversal/&#41;)
+[//]: # (- [ ] [Serialize and Deserialize Binary Tree]&#40;https://leetcode.com/problems/serialize-and-deserialize-binary-tree/&#41;)
+[//]: # (- [ ] [Subtree of Another Tree]&#40;https://leetcode.com/problems/subtree-of-another-tree/&#41;)
+[//]: # (- [ ] [Construct Binary Tree from Preorder and Inorder Traversal]&#40;https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/&#41;)
+[//]: # (- [ ] [Validate Binary Search Tree]&#40;https://leetcode.com/problems/validate-binary-search-tree/&#41;)
+[//]: # (- [ ] [Kth Smallest Element in a BST]&#40;https://leetcode.com/problems/kth-smallest-element-in-a-bst/&#41;)
+[//]: # (- [x] [Lowest Common Ancestor of BST]&#40;https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/&#41;)
+[//]: # (- [ ] [Implement Trie &#40;Prefix Tree&#41;]&#40;https://leetcode.com/problems/implement-trie-prefix-tree/&#41;)
+[//]: # (- [ ] [Add and Search Word]&#40;https://leetcode.com/problems/add-and-search-word-data-structure-design/&#41;)
+[//]: # (- [ ] [Word Search II]&#40;https://leetcode.com/problems/word-search-ii/&#41;)
+[//]: # ()
+[//]: # (### Heap)
+[//]: # ()
+[//]: # (- [ ] [Merge K Sorted Lists]&#40;https://leetcode.com/problems/merge-k-sorted-lists/&#41;)
+[//]: # (- [ ] [Top K Frequent Elements]&#40;https://leetcode.com/problems/top-k-frequent-elements/&#41;)
+[//]: # (- [ ] [Find Median from Data Stream]&#40;https://leetcode.com/problems/find-median-from-data-stream/&#41;)
+[//]: # ()
 
 # Solved Problems
 
-| id                                     | question                                                                                                                                          | myAnswe                                                                                                                                                                                                                                                |
+| id                                     | question                                                                                                                                          | my answers                                                                                                                                                                                                                                             |
 |----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span style="color:yellow">2</span>    | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)                                                                                 | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/AddTwoNumbers.py)                                                                                                                                                         |
 | <span style="color:yellow">3</span>    | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)                   | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LongestSubstringWithoutRepeatingCharacters.py), [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LongestSubstringWithoutRepeatingCharacters.php) |
@@ -188,3 +174,19 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:green">1475</span>  | [Final Prices With a Special Discount in a Shop](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/)                   | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/FinalPricesWithSpecialDiscountShop.py)                                                                                                                                      |
 | <span style="color:green">1480</span>  | [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)                                                                 | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/runningSum.php)                                                                                                                                                                |
 | <span style="color:red">1739</span>    | [Building Boxes](https://leetcode.com/problems/building-boxes/)                                                                                   | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/hard/BuildingBoxes.py)                                                                                                                                                           |
+
+
+# Unsolved (todos) Problems
+
+| id                                    | question                                                                                                                  |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| <span style="color:yellow">98</span>  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                 |
+| <span style="color:yellow">142</span> | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                               |
+| <span style="color:red">668</span>    | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) |
+| <span style="color:green">704</span>  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                             |
+| <span style="color:yellow">713</span> | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)                               |
+| <span style="color:green">724</span>  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                                                       |
+| <span style="color:green">876</span>  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                     |
+| <span style="color:yellow">923</span> | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)                                           |
+| <span style="color:red">1383</span>   | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                             |
+| <span style="color:red">1687</span>   | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)           |
