@@ -178,15 +178,18 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
 # Unsolved (todos) Problems
 
-| id                                    | question                                                                                                                  |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| <span style="color:yellow">98</span>  | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                 |
-| <span style="color:yellow">142</span> | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                               |
-| <span style="color:red">668</span>    | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/) |
-| <span style="color:green">704</span>  | [Binary Search](https://leetcode.com/problems/binary-search/)                                                             |
-| <span style="color:yellow">713</span> | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)                               |
-| <span style="color:green">724</span>  | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                                                       |
-| <span style="color:green">876</span>  | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                     |
-| <span style="color:yellow">923</span> | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)                                           |
-| <span style="color:red">1383</span>   | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                             |
-| <span style="color:red">1687</span>   | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)           |
+| id                                     | question                                                                                                                          |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| <span style="color:yellow">98</span>   | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)                                         |
+| <span style="color:yellow">142</span>  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                       |
+| <span style="color:green">543</span>   | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                 |
+| <span style="color:red">668</span>     | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)         |
+| <span style="color:green">704</span>   | [Binary Search](https://leetcode.com/problems/binary-search/)                                                                     |
+| <span style="color:yellow">713</span>  | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)                                       |
+| <span style="color:green">724</span>   | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                                                               |
+| <span style="color:green">876</span>   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                             |
+| <span style="color:yellow">923</span>  | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)                                                   |
+| <span style="color:red">1383</span>    | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                     |
+| <span style="color:yellow">1522</span> | [Diameter of N-Ary Tree](https://leetcode.ca/all/1522.html)                                                                       |
+| <span style="color:red">1687</span>    | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)                   |
+| <span style="color:red">2246</span>    | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) |
