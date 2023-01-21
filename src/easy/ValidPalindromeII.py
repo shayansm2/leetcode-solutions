@@ -5,7 +5,6 @@ class Solution:
         return self.checkIfPalindrome(arr, True)
 
     def checkIfPalindrome(self, arr: list, can_delete: bool) -> bool:
-        # print(arr)
         startIndex = 0
         endIndex = len(arr) - 1
 
@@ -18,7 +17,6 @@ class Solution:
                 if not can_delete:
                     return False
 
-                # print(startIndex, endIndex)
                 if self.checkIfPalindrome(arr[startIndex + 1: endIndex + 1], False):
                     return True
                 return self.checkIfPalindrome(arr[startIndex: endIndex], False)

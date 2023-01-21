@@ -40,23 +40,19 @@ class Solution:
 
             if val1 <= val2:
                 current.val = val1
-                # print(current, merged)
                 l1 = l1.next
             else:
                 current.val = val2
-                # print(current, merged)
                 l2 = l2.next
 
             current.next = ListNode()
             current = current.next
 
         if l1 is None:
-            # print(l2, '2')
             current.val = l2.val
             current.next = l2.next
 
         if l2 is None:
-            # print(l1, '1')
             current.val = l1.val
             current.next = l1.next
 

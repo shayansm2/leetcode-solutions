@@ -18,7 +18,6 @@ class Solution:
         for i in range(1, numRows+1):
             row = []
             for j in range(i):
-                # print(j, i-j-1)
                 row.append(pascals[j][i-j-1])
             output.append(row)
         

@@ -37,22 +37,18 @@ class Solution:
         while queue:
             node = queue.pop(0)
             currentLevel = levels.pop(0)
-            # print('DEBUG level of', node.val, 'is', currentLevel)
 
             if currentLevel not in rightSide.keys():
                 rightSide[currentLevel] = node.val
 
             if node.right:
-                # print('DEBUG right of ', node.val, 'is' , node.right.val)
                 queue.append(node.right)
                 levels.append(currentLevel + 1)
 
             if node.left:
-                # print('DEBUG left of ', node.val, 'is' , node.left.val)
                 queue.append(node.left)
                 levels.append(currentLevel + 1)
 
-        # print('DEBUG', rightSide)
         return list(rightSide.values())
 
 

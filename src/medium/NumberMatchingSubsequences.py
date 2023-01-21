@@ -11,13 +11,10 @@ class Solution:
             except:
                 self.letter_index_map[letter] = [index]
 
-        # print(self.letter_index_map)
-
         counter = 0
         for word in words:
             if self.isSubsequent(word):
                 counter += 1
-                # print(word)
 
         return counter
 
@@ -31,7 +28,6 @@ class Solution:
                 return False
 
             if max_index >= indices[-1]:
-                # print(max_index, indices) 
                 return False
 
             for index in indices:

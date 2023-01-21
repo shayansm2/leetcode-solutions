@@ -16,7 +16,6 @@ class Solution:
             return -1
 
         mid = start + (end - start) // 2
-        # print(self.nums[start:end + 1], self.nums[mid], self.target, is_sorted)
 
         if self.nums[mid] == self.target:
             return mid
