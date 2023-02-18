@@ -80,6 +80,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:green">704</span>   | [Binary Search](https://leetcode.com/problems/binary-search/)                                                                     |
 | <span style="color:yellow">713</span>  | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/)                                       |
 | <span style="color:green">724</span>   | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)                                                               |
+| <span style="color:green">783</span>   | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)                           |
 | <span style="color:green">876</span>   | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                                             |
 | <span style="color:yellow">909</span>  | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)                                                           |
 | <span style="color:yellow">923</span>  | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)                                                   |
