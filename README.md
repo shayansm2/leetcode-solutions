@@ -72,6 +72,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:yellow">2567</span> | [Minimum Score by Changing Two Elements](https://leetcode.com/problems/minimum-score-by-changing-two-elements/)                                     | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/MinimumScoreChangingTwoElements.py)                                                                                                                                       |
 | <span style="color:yellow">2568</span> | [Minimum Impossible OR](https://leetcode.com/problems/minimum-impossible-or/)                                                                       | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/MinimumImpossibleOR.py)                                                                                                                                                   |
 
+
 # Unsolved (todos) Problems
 
 | id                                     | question                                                                                                                          |
