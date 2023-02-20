@@ -5,7 +5,7 @@ def iterative_binary_search(array, target):
     # Repeat until the pointers low and high meet each other
     while low <= high:
 
-        mid = low + (high - low)//2
+        mid = low + (high - low) // 2
 
         if array[mid] == target:
             return mid
@@ -24,7 +24,7 @@ def recursive_binary_search(array, target, low, high):
     if high < low:
         return -1
 
-    mid = low + (high - low)//2
+    mid = low + (high - low) // 2
 
     # If found at mid, then return it
     if array[mid] == target:
