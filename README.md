@@ -77,7 +77,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:yellow">2583</span> | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)                                                 | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestSumBinaryTree.py)                                                                                                                                               |
 
 
-# Unsolved (todos) Problems
+# Unsolved Problems (todos)
 
 | id                                     | question                                                                                                                          |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
@@ -94,6 +94,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:yellow">909</span>  | [Snakes and Ladders](https://leetcode.com/problems/snakes-and-ladders/)                                                           |
 | <span style="color:yellow">923</span>  | [3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)                                                   |
 | <span style="color:yellow">1248</span> | [Count Number of Nice Subarrays](https://leetcode.com/problems/count-number-of-nice-subarrays/)                                   |
+| <span style="color:red">1345</span>    | [Jump Game IV](https://leetcode.com/problems/jump-game-iv/)                                                                       |
 | <span style="color:red">1383</span>    | [Maximum Performance of a Team](https://leetcode.com/problems/maximum-performance-of-a-team/)                                     |
 | <span style="color:yellow">1522</span> | [Diameter of N-Ary Tree](https://leetcode.ca/all/1522.html)                                                                       |
 | <span style="color:red">1687</span>    | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)                   |
