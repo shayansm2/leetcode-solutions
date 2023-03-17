@@ -43,6 +43,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:green">202</span>   | [Happy Number](https://leetcode.com/problems/happy-number/)                                                                                             | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/HappyNumber.php)                                                                                                                                                               |
 | <span style="color:green">203</span>   | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)                                                               | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveLinkedListElements.php)                                                                                                                                                  |
 | <span style="color:green">206</span>   | [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/)                                                                             | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ReverseLinkedList.py)                                                                                                                                                       |
+| <span style="color:yellow">208</span>  | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)                                                               | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TrieTree.py)                                                                                                                                                              |
 | <span style="color:green">235</span>   | [Lowest Common Ancestor of BST](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                                          | [python](https://github.com/shayansm2/leetcodeSolutions/blob/3f6985f81bf9dd982eacfaa8519501753d80ed9c/src/easy/LowestCommonAncestorBinarySearchTree.py)                                                                                                |
 | <span style="color:green">226</span>   | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                                 | [python (recursion)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/InvertBinaryTree.py), [python (traverse)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/FlipBinaryTree.py)                                  |
 | <span style="color:green">278</span>   | [First Bad Version](https://leetcode.com/problems/first-bad-version/)                                                                                   | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/FirstBadVersion.php)                                                                                                                                                           |
@@ -81,7 +82,6 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:green">2582</span>  | [Pass the Pillow](https://leetcode.com/problems/pass-the-pillow/)                                                                                       | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/PassPillow.py)                                                                                                                                                              |
 | <span style="color:yellow">2583</span> | [Kth Largest Sum in a Binary Tree](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree/)                                                     | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestSumBinaryTree.py)                                                                                                                                               |
 
-
 # Unsolved Problems (todos)
 
 | id                                     | question                                                                                                                          |
@@ -105,8 +105,12 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:red">1687</span>    | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)                   |
 | <span style="color:red">2246</span>    | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) |
 
-
 ### TODO for getting ready for algorithm interview:
+
 - [ ] solve [150 question of neetcode roadmap](https://neetcode.io/roadmap)
-- [ ] read [14 patterns of coding interview questions](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
-- [ ] solve 75 famous questions from [here](https://neetcode.io/practice) ,or [here](https://leetcode.com/study-plan/leetcode-75/) ,or [here](https://www.techinterviewhandbook.org/best-practice-questions/) ,or [here](https://leetcode.com/list?selectedList=9prujqt7)
+- [ ] 
+  read [14 patterns of coding interview questions](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
+- [ ] solve 75 famous questions from [here](https://neetcode.io/practice)
+  ,or [here](https://leetcode.com/study-plan/leetcode-75/)
+  ,or [here](https://www.techinterviewhandbook.org/best-practice-questions/)
+  ,or [here](https://leetcode.com/list?selectedList=9prujqt7)
