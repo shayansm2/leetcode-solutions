@@ -87,6 +87,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | id                                     | question                                                                                                                          |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | <span style="color:yellow">142</span>  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                       |
+| <span style="color:yellow">211</span>  | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)           |
 | <span style="color:green">543</span>   | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)                                                 |
 | <span style="color:yellow">652</span>  | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)                                                 |
 | <span style="color:red">668</span>     | [Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)         |
