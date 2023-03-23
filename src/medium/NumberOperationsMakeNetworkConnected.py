@@ -1,32 +1,45 @@
 class Solution:
+    def __init__(self):
+        self.visited = None
+        self.nodes = None
+
     def makeConnected(self, n: int, connections: list[list[int]]) -> int:
-        if n - 1 > len(connections):
+        if not self.is_number_of_connections_sufficient(n, len(connections)):
             return -1
 
-        nodes = [[] for i in range(n)]
-        visited = [False for i in range(n)]
+        self.create_graph(connections, n)
 
-        for a, b in connections:
-            nodes[a].append(b)
-            nodes[b].append(a)
+        return self.get_number_of_networks() - 1
 
+    def get_number_of_networks(self):
         number_of_networks = 0
-
-        for node_id, node in enumerate(nodes):
-            if visited[node_id]:
+        for node_id, node in enumerate(self.nodes):
+            if self.visited[node_id]:
                 continue
 
             number_of_networks += 1
-            queue = [node_id]
+            self.perform_DFS(node_id)
+        return number_of_networks
 
-            while queue:
-                cur_node_id = queue.pop()
-                node = nodes[cur_node_id]
-                visited[cur_node_id] = True
+    def perform_DFS(self, node_id):
+        queue = [node_id]
+        while queue:
+            cur_node_id = queue.pop()
+            node = self.nodes[cur_node_id]
+            self.visited[cur_node_id] = True
 
-                for neighbour in node:
-                    if visited[neighbour]:
-                        continue
-                    queue.append(neighbour)
+            for neighbour in node:
+                if self.visited[neighbour]:
+                    continue
+                queue.append(neighbour)
 
-        return number_of_networks - 1
+    def create_graph(self, connections, n):
+        self.nodes = [[] for i in range(n)]
+        self.visited = [False for i in range(n)]
+        for a, b in connections:
+            self.nodes[a].append(b)
+            self.nodes[b].append(a)
+
+    @staticmethod
+    def is_number_of_connections_sufficient(number_of_nodes: int, number_of_connections: int) -> bool:
+        return number_of_nodes - 1 <= number_of_connections
