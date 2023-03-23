@@ -110,9 +110,9 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
 # non-leetocde Problems
 
-| question                                                                                                                                                                                    | my answers                           | reference  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|------------|
-| [POJ](http://poj.org/problem?id=1451), [leetcode](https://leetcode.com/discuss/interview-question/system-design/685338/microsoft-onsite-design-the-t9-predictive-text-algorithm-and-system) | [python](./src/other_problems/T9.py) | `2.2 CPIP` |
+| question                                                                                                                                                                                    | my answers                                                                                  | reference  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------|
+| [POJ](http://poj.org/problem?id=1451), [leetcode](https://leetcode.com/discuss/interview-question/system-design/685338/microsoft-onsite-design-the-t9-predictive-text-algorithm-and-system) | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/other_problems/T9.py) | `2.2 CPIP` |
 
 - `CPIP`: Competitive Programming in Python
 - `CTCI`: Cracking the Coding Interview
