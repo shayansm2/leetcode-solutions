@@ -110,6 +110,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 | <span style="color:yellow">1522</span> | [Diameter of N-Ary Tree](https://leetcode.ca/all/1522.html)                                                                       |
 | <span style="color:red">1687</span>    | [Delivering Boxes from Storage to Ports](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports/)                   | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/DeliveringBoxesStoragePorts.py)                |
 | <span style="color:red">2246</span>    | [Longest Path With Different Adjacent Characters](https://leetcode.com/problems/longest-path-with-different-adjacent-characters/) | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/LongestPathWithDifferentAdjacentCharacters.py) |
+| <span style="color:red">2360</span>    | [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)                                               | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/LongestCycleGraph.py)                          |
 
 # non-leetocde Problems
 
