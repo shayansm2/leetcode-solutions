@@ -171,12 +171,13 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 ## TODO for getting ready for algorithm interview:
 
 - [ ] solve [150 question of neetcode roadmap](https://neetcode.io/roadmap)
+  and [150 leetcode top interview](https://leetcode.com/studyplan/top-interview-150/)
 - [ ] 
   read [14 patterns of coding interview questions](https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed)
 - [ ] solve 75 famous questions from [here](https://neetcode.io/practice)
   ,or [here](https://leetcode.com/study-plan/leetcode-75/)
   ,or [here](https://www.techinterviewhandbook.org/best-practice-questions/)
-  ,or [here](https://leetcode.com/list?selectedList=9prujqt7)
+  ,or [here](https://leetcode.com/list?selectedList=9prujqt7), or [here](https://leetcode.com/studyplan/leetcode-75/)
 - [ ] 
   read [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
   book
