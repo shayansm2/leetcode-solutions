@@ -188,3 +188,5 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
   book
   and [Competitive Programming in Python](https://www.amazon.com/Competitive-Programming-Python-Algorithms-Develop-ebook/dp/B08K3MS9ML)
   book
+
+[DS lib](./src/lib/dataStructures.html).
