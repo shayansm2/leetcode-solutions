@@ -104,3 +104,6 @@ Given `n = heap.length` and talking about min heaps,
 - Delete the minimum element: `O(logn)`
 - Find the minimum element: `O(1)`
 - Check if element exists: `O(n)`
+
+resources:
+- [leetcode cheatsheet](https://leetcode.com/explore/interview/card/cheatsheets/720/resources/4725/)

@@ -6,7 +6,7 @@ My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
 
 My roadmap for code interviews: [roadmap](./roadmap.html)
 
-a simple library for data structures: [ds-lib](./src/lib/dataStructures.html)
+My notes on Data Structures and Algorithm: [ds](./src/lib/dataStructures.html), [algo](./src/lib/algorithms.html)
 
 # Solved Problems
 
