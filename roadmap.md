@@ -12,6 +12,6 @@
   - [another leetcode study plan](https://leetcode.com/studyplan/leetcode-75/)
 - [ ] 
   read [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
-  book ![50%](https://progress-bar.dev/0)
+  book and solve leetcode problems based on [this](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode#1) ![50%](https://progress-bar.dev/5)
 - [ ] read [Competitive Programming in Python](https://www.amazon.com/Competitive-Programming-Python-Algorithms-Develop-ebook/dp/B08K3MS9ML)
   book ![50%](https://progress-bar.dev/10)
