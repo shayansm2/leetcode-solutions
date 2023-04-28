@@ -17,7 +17,7 @@
   on [this](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode#1)
     - [ ] arrays and strings ![50%](https://progress-bar.dev/10)
     - [ ] linked lists
-    - [ ] stacks and queues ![50%](https://progress-bar.dev/30)
+    - [ ] stacks and queues ![50%](https://progress-bar.dev/70)
     - [ ] trees and graphs
     - [ ] bit manipulation
     - [ ] math and logic puzzles
