@@ -1,33 +1,90 @@
-# stack implementation using queue module
+# there are three ways in order to use stacks
+# 1. the simplest one: lists
+# 2. the standard one: queue module
+# 3. the "reinvent the wheel" one: linked lists
 
+########################################################################################################################
+# 1. list stack
+list_stack = []
+
+list_stack.append('a')
+list_stack.append('b')
+list_stack.append('c')
+
+print(len(list_stack))
+
+print(list_stack.pop())
+print(list_stack.pop())
+print(list_stack.pop())
+
+########################################################################################################################
+# 2. queue module
 from queue import LifoQueue
 
-from src.lib.MyStack import MyStack
-
 # Initializing a stack
-pyStack = LifoQueue(maxsize=3)
+py_stack = LifoQueue(maxsize=3)
 
 # put() function to push element in the stack
-pyStack.put('a')
-pyStack.put('b')
-pyStack.put('c')
+py_stack.put('a')
+py_stack.put('b')
+py_stack.put('c')
 
 # qsize() show the number of elements in the stack
-print(pyStack.qsize())
+print(py_stack.qsize())
 
-# get() fucntion to pop element from stack in LIFO order
+# get() function to pop element from stack in LIFO order
 
-print(pyStack.get(), ' poped from stack')
-print(pyStack.get(), ' poped from stack')
-print(pyStack.get(), ' poped from stack')
+print(py_stack.get(), ' poped from stack')
+print(py_stack.get(), ' poped from stack')
+print(py_stack.get(), ' poped from stack')
 
 # qsize() show the number of elements in the stack
-print(pyStack.qsize())
+print(py_stack.qsize())
 
-myStack = MyStack()
 
-myStack.push('a')
-myStack.push('b')
-print(myStack.pop(), ' poped from stack')
-print(myStack.peek(), 'last item in stack')
-print(myStack.is_empty())
+########################################################################################################################
+# 3. linked lists
+class StackNode(object):
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+
+class LinkedListStack(object):
+    def __init__(self):
+        self.top = None
+
+    def pop(self):
+        if self.is_empty():
+            raise Exception('empty stack')
+
+        self.top: StackNode
+        item = self.top.data
+        self.top = self.top.next
+        return item
+
+    def push(self, item) -> None:
+        node = StackNode(item)
+        node.next = self.top
+        self.top = node
+
+    def peek(self):
+        if self.is_empty():
+            raise Exception('empty stack')
+
+        self.top: StackNode
+        return self.top.data
+
+    def is_empty(self) -> bool:
+        return self.top is None
+
+
+linked_list_stack = LinkedListStack()
+
+linked_list_stack.push('a')
+linked_list_stack.push('b')
+linked_list_stack.push('c')
+
+print(linked_list_stack.pop(), ' poped from stack')
+print(linked_list_stack.peek(), 'last item in stack')
+print(linked_list_stack.is_empty())
