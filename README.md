@@ -145,16 +145,6 @@ My notes on Data Structures and Algorithm: [ds](./src/lib/dataStructures.html), 
 | 🔴 [1739-Building Boxes](https://leetcode.com/problems/building-boxes/)                                                                                       | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/hard/BuildingBoxes.py)                                                                                                                                     |
 | 🔴 [2218-Maximum Value of K Coins From Piles](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles/)                                             | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/hard/MaximumValueKCoinsFromPiles.py)                                                                                                                       |
 
-[//]: # (## non-leetocde Problems)
-
-[//]: # ()
-
-[//]: # (| question                                                                                                                                                                                    | my answers                                                                                  | tags       |)
-
-[//]: # (|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------|)
-
-[//]: # (| [POJ]&#40;http://poj.org/problem?id=1451&#41;, [leetcode]&#40;https://leetcode.com/discuss/interview-question/system-design/685338/microsoft-onsite-design-the-t9-predictive-text-algorithm-and-system&#41; | [python]&#40;https://github.com/shayansm2/leetcodeSolutions/blob/main/src/other_problems/T9.py&#41; |)
-
 # Unsolved Problems (todos)
 
 | question                                                                                                                                  | not finished answers                                                                                                          | tags |
