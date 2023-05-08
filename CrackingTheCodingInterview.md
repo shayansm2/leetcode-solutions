@@ -151,3 +151,7 @@
 | 17.24. Max Submatrix          |                                                                                                                                                                                  |       |
 | 17.25. Word Rectangle         |                                                                                                                                                                                  |       |
 | 17.26. Sparse Similarity      |                                                                                                                                                                                  |       |
+
+#### resource:
+
+- [leetcode questions of the cracking the interview book](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode#1)

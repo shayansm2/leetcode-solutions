@@ -13,32 +13,38 @@
     - [another leetcode study plan](https://leetcode.com/studyplan/leetcode-75/)
 - [ ] 
   read [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
-  book and solve leetcode problems based
-  on [this](https://leetcode.com/discuss/general-discussion/1152824/cracking-the-coding-interview-6th-edition-in-leetcode#1)
-    - [ ] arrays and strings ![50%](https://progress-bar.dev/10)
-    - [ ] linked lists
-    - [ ] stacks and queues ![50%](https://progress-bar.dev/70)
-    - [ ] trees and graphs
-    - [ ] bit manipulation
-    - [ ] math and logic puzzles
-    - [ ] recursion and DP
-    - [ ] sorting and searching
-    - [ ] moderate
-    - [ ] hard
-- [ ] 
-  read [Competitive Programming in Python](https://www.amazon.com/Competitive-Programming-Python-Algorithms-Develop-ebook/dp/B08K3MS9ML)
-  book ![50%](https://progress-bar.dev/5)
-    - [ ] strings
-    - [ ] sequences
-    - [ ] arrays
-    - [ ] intervals
-    - [ ] graphs
-    - [ ] cycle in graphs
-    - [ ] shortest path
-    - [ ] matching and flow
-    - [ ] trees
-    - [ ] sets
-    - [ ] points and polygons
-    - [ ] rectangles
-    - [ ] numbers and matrices
-    - [ ] exhaustive search
+  book and solve [its problems](./CrackingTheCodingInterview.html)
+
+[//]: # (- [ ] )
+
+[//]: # (  read [Competitive Programming in Python]&#40;https://www.amazon.com/Competitive-Programming-Python-Algorithms-Develop-ebook/dp/B08K3MS9ML&#41;)
+
+[//]: # (  book ![50%]&#40;https://progress-bar.dev/5&#41;)
+
+[//]: # (    - [ ] strings)
+
+[//]: # (    - [ ] sequences)
+
+[//]: # (    - [ ] arrays)
+
+[//]: # (    - [ ] intervals)
+
+[//]: # (    - [ ] graphs)
+
+[//]: # (    - [ ] cycle in graphs)
+
+[//]: # (    - [ ] shortest path)
+
+[//]: # (    - [ ] matching and flow)
+
+[//]: # (    - [ ] trees)
+
+[//]: # (    - [ ] sets)
+
+[//]: # (    - [ ] points and polygons)
+
+[//]: # (    - [ ] rectangles)
+
+[//]: # (    - [ ] numbers and matrices)
+
+[//]: # (    - [ ] exhaustive search)
