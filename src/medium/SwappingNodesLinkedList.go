@@ -1,15 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"strconv"
-)
-
-// ListNode Definition for singly-linked list.
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import . "../lib"
 
 func swapNodes(head *ListNode, k int) *ListNode {
 	KthNodePointerFromBeginning := head
@@ -29,24 +20,14 @@ func swapNodes(head *ListNode, k int) *ListNode {
 	return head
 }
 
-func displayLinkedList(head ListNode) {
-	representation := ""
-	for head.Next != nil {
-		representation += strconv.Itoa(head.Val) + "->"
-		head = *head.Next
-	}
-	representation += strconv.Itoa(head.Val)
-	fmt.Println(representation)
-}
-
 func main() {
-	linkedList := ListNode{1, &ListNode{2, &ListNode{3, &ListNode{4, &ListNode{5, nil}}}}}
-	displayLinkedList(linkedList)
+	linkedList := ListNode{Val: 1, Next: &ListNode{Val: 2, Next: &ListNode{Val: 3, Next: &ListNode{Val: 4, Next: &ListNode{Val: 5}}}}}
+	linkedList.Show()
 	linkedList = *swapNodes(&linkedList, 2)
-	displayLinkedList(linkedList)
+	linkedList.Show()
 
-	linkedList = ListNode{7, &ListNode{9, &ListNode{6, &ListNode{6, &ListNode{7, &ListNode{8, &ListNode{3, &ListNode{0, &ListNode{9, &ListNode{5, nil}}}}}}}}}}
-	displayLinkedList(linkedList)
+	linkedList = ListNode{Val: 7, Next: &ListNode{Val: 9, Next: &ListNode{Val: 6, Next: &ListNode{Val: 6, Next: &ListNode{Val: 7, Next: &ListNode{Val: 8, Next: &ListNode{Val: 3, Next: &ListNode{Next: &ListNode{Val: 9, Next: &ListNode{Val: 5}}}}}}}}}}
+	linkedList.Show()
 	linkedList = *swapNodes(&linkedList, 5)
-	displayLinkedList(linkedList)
+	linkedList.Show()
 }
