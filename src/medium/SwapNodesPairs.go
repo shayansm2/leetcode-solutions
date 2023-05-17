@@ -13,9 +13,9 @@ func swapPairs(head *ListNode) *ListNode {
 }
 
 func main() {
-	list := CreateFromArray([]int{1, 2, 3, 4})
-	//list := CreateFromArray([]int{})
-	//list := CreateFromArray([]int{1})
+	list := CreateLinkedListFromArray([]int{1, 2, 3, 4})
+	//list := CreateLinkedListFromArray([]int{})
+	//list := CreateLinkedListFromArray([]int{1})
 	list.Show()
 	list = swapPairs(list)
 	list.Show()
