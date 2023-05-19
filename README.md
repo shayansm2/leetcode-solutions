@@ -9,5 +9,5 @@ The aim of this personal (and public) repository is to share my answers to leetc
     - 🔴 [Hard](./src/hard/README.md)
 - ❓ Unsolved problems (todos for future): [link](./src/unsolved/README.md)
 - 📗 Problems from "cracking the coding interview" book: [link](./CrackingTheCodingInterview.md)
-- 🚀 My roadmap for code interviews: [roadmap](./roadmap.html)
-- 🗒️ My notes on Data Structures and Algorithm: [ds](./src/lib/dataStructures.html), [algo](./src/lib/algorithms.html)
+- 🚀 My roadmap for code interviews: [roadmap](./roadmap.md)
+- 🗒️ My notes on Data Structures and Algorithm: [ds](./src/lib/dataStructures.md), [algo](./src/lib/algorithms.md)
