@@ -71,6 +71,8 @@ Given `n = stack.length`,
 - Peek (see element at top of stack): `O(1)`
 - Check if element exists: `O(n)`
 
+[stack implementation](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/lib/stack.py)
+
 ---
 
 ### Queue
@@ -81,6 +83,8 @@ Given `n = queue.length`,
 - Dequeue element: `O(1)`
 - Peek (see element at front of queue): `O(1)`
 - Check if element exists: `O(n)`
+
+[queue implementation](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/lib/queues.py)
 
 ---
 
@@ -94,6 +98,8 @@ Given `n` as the number of nodes in the tree,
 The average case is when the tree is well-balanced - each depth is close to full. The worst case is when the tree is
 just a straight line.
 
+[binary tree implementation](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/lib/binaryTree.py)
+
 ---
 
 ### Heap/Priority Queue
@@ -105,5 +111,10 @@ Given `n = heap.length` and talking about min heaps,
 - Find the minimum element: `O(1)`
 - Check if element exists: `O(n)`
 
+[heap implementation](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/lib/heap.py)
+
+---
+
 resources:
 - [leetcode cheatsheet](https://leetcode.com/explore/interview/card/cheatsheets/720/resources/4725/)
+- [quera algorithm course](https://quera.org/college/landpage/3016/Data-Structures-and-Algorithmic-Thinking)
