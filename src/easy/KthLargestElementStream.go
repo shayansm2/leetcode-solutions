@@ -10,7 +10,7 @@ type KthLargest struct {
 	k           int
 }
 
-func Constructor(k int, nums []int) KthLargest {
+func KthLargestConstructor(k int, nums []int) KthLargest {
 	sort.Ints(nums)
 	return KthLargest{sortedArray: nums, k: k}
 }
@@ -46,7 +46,7 @@ func binarySearch(array []int, k int) int {
 }
 
 func main() {
-	obj := Constructor(3, []int{4, 5, 8, 2})
+	obj := KthLargestConstructor(3, []int{4, 5, 8, 2})
 	fmt.Println(obj.Add(3))  // 4
 	fmt.Println(obj.Add(5))  // 5
 	fmt.Println(obj.Add(10)) // 5
