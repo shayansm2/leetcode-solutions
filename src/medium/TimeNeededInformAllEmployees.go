@@ -24,15 +24,16 @@ func numOfMinutes(n int, headID int, manager []int, informTime []int) int {
 
 	var maxInformedTime int
 	employees[headID].informedTime = 0
-	queue := []int{headID}
+	queue := []Employee{employees[headID]}
 	for len(queue) > 0 {
 		curManager := queue[0]
 		queue = queue[1:]
-		for _, emp := range employees[curManager].employees {
-			employees[emp].informedTime = employees[curManager].informedTime + informTime[curManager]
+		for _, empId := range curManager.employees {
+			emp := employees[empId]
+			emp.informedTime = curManager.informedTime + informTime[curManager.id]
 			queue = append(queue, emp)
-			if maxInformedTime < employees[emp].informedTime {
-				maxInformedTime = employees[emp].informedTime
+			if maxInformedTime < emp.informedTime {
+				maxInformedTime = emp.informedTime
 			}
 		}
 	}
