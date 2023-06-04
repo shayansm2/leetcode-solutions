@@ -11,7 +11,7 @@
 | [706-Design HashMap](https://leetcode.com/problems/design-hashmap/)                                         | linked list                                                                                                           | `DS` |
 | [217-Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                 | bit vector                                                                                                            |
 | [783-Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [javascript](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/MinimumDistanceBetweenBSTNodes.js) |      |
-| [876-Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                   |                                                                                                                       |      |
+| [876-Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)                   |                                                                                                                       |
 
 ## 🟡 Medium
 
@@ -33,6 +33,7 @@
 | [1522-Diameter of N-Ary Tree](https://leetcode.ca/all/1522.html)                                                            |                                                                                                                      |      |
 | [2130-Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                  | go (space complexity o(1))                                                                                           |
 | [2616-Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)    | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/MinimizeMaximumDifferencePairs.py)    |      |
+| [Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/)                                   |                                                                                                                      |
 
 ## 🔴 Hard
 
@@ -49,3 +50,4 @@
 | [2360-Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)                                               | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/LongestCycleGraph.py)                          |      |
 | [2608-Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/)                                             | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/ShortestCycleGraph.py)                         |      |
 | [2617-Minimum Number of Visited Cells in a Grid](https://leetcode.com/problems/minimum-number-of-visited-cells-in-a-grid/)             | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/MinimumNumberVisitedCellsGrid.py)              |      |
+| [2719-Count of Integers](https://leetcode.com/problems/count-of-integers/)                                                             |
