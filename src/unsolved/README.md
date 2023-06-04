@@ -33,7 +33,6 @@
 | [1522-Diameter of N-Ary Tree](https://leetcode.ca/all/1522.html)                                                            |                                                                                                                      |      |
 | [2130-Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)                  | go (space complexity o(1))                                                                                           |
 | [2616-Minimize the Maximum Difference of Pairs](https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/)    | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/unsolved/MinimizeMaximumDifferencePairs.py)    |      |
-| [Sum of Matrix After Queries](https://leetcode.com/problems/sum-of-matrix-after-queries/)                                   |                                                                                                                      |
 
 ## 🔴 Hard
 
