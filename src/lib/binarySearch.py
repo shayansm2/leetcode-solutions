@@ -1,3 +1,6 @@
+import bisect
+
+
 def iterative_binary_search(array, target):
     low = 0  # inclusive
     high = len(array) - 1  # inclusive
@@ -36,3 +39,9 @@ def recursive_binary_search(array, target, low, high):
 
     # Search the right half
     return recursive_binary_search(array, target, mid + 1, high)
+
+
+def builtin_binary_search(array, target, low, high):
+    return bisect.bisect(array, target, low, high)
+    # return bisect.bisect_right(array, target, low, high)
+    # return bisect.bisect_left(array, target, low, high)
