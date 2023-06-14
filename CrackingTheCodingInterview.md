@@ -25,7 +25,7 @@
 | 2.5 Sum Lists          | ✅ [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/), [445. Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/AddTwoNumbers.py)                           |
 | 2.6 Palindrome         | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)                                                                 |                                                                                                                          |
 | 2,7 Intersection       | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)                                             |                                                                                                                          |
-| 2.8 Loop Detection     | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                                     |                                                                                                                          |
+| 2.8 Loop Detection     | ⚠️ [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                                                                  |                                                                                                                          |
 
 ## Chapter 3: Stacks and Queues
 
