@@ -5,7 +5,7 @@ import (
 	"math/big"
 )
 
-const modulo = 1000000007
+const moduloNumOfWays = 1000000007
 
 type BSTNode struct {
 	Val   int
@@ -31,10 +31,10 @@ func getNumberOfPermutations(root *BSTNode) (int, int) {
 
 	leftPermutations, leftLen := getNumberOfPermutations(root.Left)
 	rightPermutations, rightLen := getNumberOfPermutations(root.Right)
-	permutations := ((leftPermutations % modulo) * (rightPermutations % modulo)) % modulo
+	permutations := ((leftPermutations % moduloNumOfWays) * (rightPermutations % moduloNumOfWays)) % moduloNumOfWays
 	coefficient := new(big.Int).Binomial(int64(leftLen+rightLen), int64(leftLen))
-	coefficient = new(big.Int).Mod(coefficient, new(big.Int).SetInt64(int64(modulo)))
-	permutations = (permutations * int(coefficient.Int64())) % modulo
+	coefficient = new(big.Int).Mod(coefficient, new(big.Int).SetInt64(int64(moduloNumOfWays)))
+	permutations = (permutations * int(coefficient.Int64())) % moduloNumOfWays
 	//fmt.Printf("f(%v)=(%v, %v)\n", root.Val, permutations, leftLen+rightLen+1)
 	return permutations, leftLen + rightLen + 1
 }
