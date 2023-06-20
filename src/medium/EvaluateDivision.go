@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func calcEquation(equations [][]string, values []float64, queries [][]string) []float64 {
-	graph := createGraph(equations, values)
+	graph := createGraphForEquations(equations, values)
 	var result []float64
 
 	for _, query := range queries {
@@ -13,7 +13,7 @@ func calcEquation(equations [][]string, values []float64, queries [][]string) []
 	return result
 }
 
-func createGraph(equations [][]string, values []float64) map[string]map[string]float64 {
+func createGraphForEquations(equations [][]string, values []float64) map[string]map[string]float64 {
 	graph := make(map[string]map[string]float64)
 	for i, equation := range equations {
 		_, keyExists := graph[equation[0]]
