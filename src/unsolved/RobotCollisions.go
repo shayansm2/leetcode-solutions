@@ -1,4 +1,4 @@
-package unsolved
+package main
 
 import (
 	"fmt"

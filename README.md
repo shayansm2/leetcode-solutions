@@ -8,6 +8,6 @@ The aim of this personal (and public) repository is to share my answers to leetc
     - 🟡 [Medium](./src/medium/README.md)
     - 🔴 [Hard](./src/hard/README.md)
 - ❓ Unsolved problems (todos for future): [link](./src/unsolved/README.md)
-- 📗 Problems from "cracking the coding interview" book: [link](./CrackingTheCodingInterview.md)
+- 📗 Problems from "cracking the coding interview" book: [link](./src/interview_prep/CrackingTheCodingInterview.md)
 - 🚀 My roadmap for code interviews: [roadmap](./roadmap.md)
 - 🗒️ My notes on Data Structures and Algorithm: [ds](./src/lib/dataStructures.md), [algo](./src/lib/algorithms.md)
