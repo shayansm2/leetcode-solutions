@@ -1,15 +1,15 @@
-| problem                                                                                              | code                                                                                                | notes                                              |
-|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| 🟢 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ContainsDuplicate.php)      | hash map or hash set                               |
-| 🟢 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidAnagram.py)             | hash map or sort string                            |
-| 🟢 [Two Sum](https://leetcode.com/problems/two-sum/)                                                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/TwoSum.go)                   | hash map                                           |
-| 🟡 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                   | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/GroupAnagrams.py)          | hash map or sorted string                          |
-| 🟡 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestElementArray.go) ||
-| 🟡 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TopKFrequentElements.go)   | hash map + heap queue or quick sort or bucket sort |
-| 🟡 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       |||
-| 🟡 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                       |||
-| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             |||
-| 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       |||
+| problem                                                                                              | code                                                                                                | notes                                                         |
+|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| 🟢 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ContainsDuplicate.php)      | hash map or hash set                                          |
+| 🟢 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidAnagram.py)             | hash map or sort string                                       |
+| 🟢 [Two Sum](https://leetcode.com/problems/two-sum/)                                                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/TwoSum.go)                   | hash map                                                      |
+| 🟡 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                   | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/GroupAnagrams.py)          | hash map or sorted string                                     |
+| 🟡 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestElementArray.go) | sort or heap queue or quick select or counting (bucket) sort  |
+| 🟡 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TopKFrequentElements.go)   | hash map + heap queue or quick sort or counting (bucket) sort |
+| 🟡 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ProductArrayExceptSelf.go) | -                                                             |
+| 🟡 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ValidSudoku.go)            | -                                                             |
+| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)    | -                                                             |
+| 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       |                                                                                                     |                                                               |
 
 covered data structures and algorithms:
 
@@ -33,7 +33,7 @@ notes:
 freq = [[] for i in range(len(nums) + 1)]
 // instead of sorting the key_value array based on their value
 for n, c in key_value.items():
-            freq[c].append(n)
+    freq[c].append(n)
 ```
 
 #### heap queue in go
@@ -45,8 +45,8 @@ as follows:
 package main
 
 import (
-  "container/heap"
-  "fmt"
+	"container/heap"
+	"fmt"
 )
 
 // An IntHeap is a min-heap of ints.
@@ -57,26 +57,26 @@ func (h IntHeap) Less(i, j int) bool  { return h[i] < h[j] }
 func (h IntHeap) Swap(i, j int)       { h[i], h[j] = h[j], h[i] }
 func (h *IntHeap) Push(x interface{}) { *h = append(*h, x.(int)) }
 func (h *IntHeap) Pop() interface{} {
-  old := *h
-  n := len(old)
-  x := old[n-1]
-  *h = old[0 : n-1]
-  return x
+	old := *h
+	n := len(old)
+	x := old[n-1]
+	*h = old[0 : n-1]
+	return x
 }
 
 func main() {
-  // create a new intHeap instance
-  nums := &IntHeap{3, 1, 4, 5, 1, 1, 2, 6}
+	// create a new intHeap instance
+	nums := &IntHeap{3, 1, 4, 5, 1, 1, 2, 6}
 
-  // The Init function reorders the numbers into a heap
-  heap.Init(nums)
+	// The Init function reorders the numbers into a heap
+	heap.Init(nums)
 
-  // The slice is now reordered to conform to the heap property
-  fmt.Println(nums)
+	// The slice is now reordered to conform to the heap property
+	fmt.Println(nums)
 
-  // Pop the minimum value from the heap
-  min := heap.Pop(nums)
-  fmt.Println("min: ", min, " heap: ", *nums)
+	// Pop the minimum value from the heap
+	min := heap.Pop(nums)
+	fmt.Println("min: ", min, " heap: ", *nums)
 }
 
 ```
