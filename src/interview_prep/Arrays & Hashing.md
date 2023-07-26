@@ -1,15 +1,15 @@
-| problem                                                                                              | code                                                                                                | notes                                                         |
-|------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| 🟢 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ContainsDuplicate.php)      | hash map or hash set                                          |
-| 🟢 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidAnagram.py)             | hash map or sort string                                       |
-| 🟢 [Two Sum](https://leetcode.com/problems/two-sum/)                                                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/TwoSum.go)                   | hash map                                                      |
-| 🟡 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                   | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/GroupAnagrams.py)          | hash map or sorted string                                     |
-| 🟡 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestElementArray.go) | sort or heap queue or quick select or counting (bucket) sort  |
-| 🟡 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TopKFrequentElements.go)   | hash map + heap queue or quick sort or counting (bucket) sort |
-| 🟡 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ProductArrayExceptSelf.go) | -                                                             |
-| 🟡 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ValidSudoku.go)            | -                                                             |
-| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)    | encoding and decoding concepts                                |
-| 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       |                                                                                                     |                                                               |
+| problem                                                                                              | code                                                                                                    | solutions                                                     | my notes                          |
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|-----------------------------------|
+| 🟢 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ContainsDuplicate.php)          | hash map or hash set                                          |
+| 🟢 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidAnagram.py)                 | hash map or sort string                                       |
+| 🟢 [Two Sum](https://leetcode.com/problems/two-sum/)                                                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/TwoSum.go)                       | hash map                                                      |
+| 🟡 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                   | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/GroupAnagrams.py)              | hash map or sorted string                                     |
+| 🟡 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestElementArray.go)     | sort or heap queue or quick select or counting (bucket) sort  | ⭐                                 |                               
+| 🟡 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TopKFrequentElements.go)       | hash map + heap queue or quick sort or counting (bucket) sort | ⭐⭐ full of ds, good for interview |
+| 🟡 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ProductArrayExceptSelf.go)     | array                                                         |
+| 🟡 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ValidSudoku.go)                |                                                               |
+| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)        | encoding and decoding concepts                                | implementation, encode, decode    |                                
+| 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LongestConsecutiveSequence.go) | hash set, implementing range with hash map                    | ⭐⭐⭐ creative solution             |
 
 covered data structures and algorithms:
 
@@ -22,7 +22,7 @@ covered data structures and algorithms:
 
 ---
 
-notes:
+### notes:
 
 #### sorting for arrays with limited value range
 
@@ -136,4 +136,44 @@ function select(list, left, right, k) is
         return select(list, left, pivotIndex − 1, k)
     else
         return select(list, pivotIndex + 1, right, k) 
+```
+
+#### solution of Longest Consecutive Sequence problem:
+
+this solution was simple ,interesting and creative which I couldn't come up with it
+
+```go
+package main
+
+func longestConsecutive(nums []int) int {
+	set := map[int]bool{}
+
+	for _, num := range nums {
+		set[num] = true
+	}
+
+	res := 0
+
+	for _, num := range nums {
+		// check if it's the start of a sequence
+		if set[num-1] {
+			continue
+		}
+
+		sequence := 1
+		temp := num + 1
+
+		for set[temp] {
+			sequence++
+			temp++
+		}
+
+		if sequence > res {
+			res = sequence
+		}
+	}
+
+	return res
+}
+
 ```
