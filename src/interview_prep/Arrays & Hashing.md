@@ -8,7 +8,7 @@
 | 🟡 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TopKFrequentElements.go)   | hash map + heap queue or quick sort or counting (bucket) sort |
 | 🟡 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ProductArrayExceptSelf.go) | -                                                             |
 | 🟡 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ValidSudoku.go)            | -                                                             |
-| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)    | -                                                             |
+| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)    | encoding and decoding concepts                                |
 | 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       |                                                                                                     |                                                               |
 
 covered data structures and algorithms:
