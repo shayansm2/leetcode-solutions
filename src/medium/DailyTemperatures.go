@@ -28,8 +28,8 @@ func dailyTemperatures(temperatures []int) []int {
 	answer := make([]int, len(temperatures))
 	var stack temperatureInfoStack
 
-	for i, tempreture := range temperatures {
-		info := temperatureInfo{id: i, temperature: tempreture}
+	for i, temperature := range temperatures {
+		info := temperatureInfo{id: i, temperature: temperature}
 
 		for stack.getLast() != nil && stack.getLast().temperature < info.temperature {
 			oldInfo := stack.pop()
