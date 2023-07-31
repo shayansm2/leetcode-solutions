@@ -9,7 +9,7 @@ The aim of this personal (and public) repository is to share my answers to leetc
     - 🔴 [Hard](./src/hard/README.md)
 - ❓ Unsolved problems (todos for future): [link](./src/unsolved/README.md)
 - 🚀 My roadmap for code interviews: [roadmap](./roadmap.md)
-    - [ ] 🇳 solve 150 interview problems [neetcode](./src/interview_prep/NeetcodeRoadmap.md) ![50%](https://progress-bar.dev/7)
+    - [ ] 🇳 solve 150 interview problems [neetcode](./src/interview_prep/NeetcodeRoadmap.md) ![50%](https://progress-bar.dev/10)
     - [ ] 🇱 solve 150 interview problems [leetcode](https://leetcode.com/studyplan/top-interview-150/) ![50%](https://progress-bar.dev/13)
     - [ ] 📗 solve problems from "cracking the coding interview"
       book: [link](./src/interview_prep/CrackingTheCodingInterview.md)

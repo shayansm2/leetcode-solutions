@@ -1,6 +1,6 @@
 # Neetcode roadmap
 
-- [x] [Arrays and Hashing](./Arrays%20&%20Hashing.md)
+- [x] [Arrays and Hashing](./ArraysHashing.md)
 - [ ] [STacks](./Stack.md)
 - [ ] [Two Pointers](./Two%20Pointers.md)
 - Sliding Window
