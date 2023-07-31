@@ -7,11 +7,11 @@ type temperatureInfo struct {
 
 type temperatureInfoStack []temperatureInfo
 
-func (stack temperatureInfoStack) getLast() *temperatureInfo {
-	if len(stack) == 0 {
+func (stack *temperatureInfoStack) getLast() *temperatureInfo {
+	if len(*stack) == 0 {
 		return nil
 	}
-	return &stack[len(stack)-1]
+	return &(*stack)[len(*stack)-1]
 }
 
 func (stack *temperatureInfoStack) pop() *temperatureInfo {
