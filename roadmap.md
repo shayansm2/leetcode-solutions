@@ -14,3 +14,5 @@
 - [ ] 
   read [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
   book and solve [its problems](./CrackingTheCodingInterview.html)
+- [ ] finish [30 Days of Pandas study plan](https://leetcode.com/studyplan/30-days-of-pandas/) to practice pandas
+- [ ] finish [30 Days of JavaScript study plan](https://leetcode.com/studyplan/30-days-of-javascript/) to practice js
