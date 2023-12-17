@@ -9,7 +9,7 @@
 - Trees
 - Tries
 - Backtracking
-- Heap / Priority Queue
+- [Heap / Priority Queue](./PriorityQueue.md)
 - Intervals
 - Greedy
 - Graphs
