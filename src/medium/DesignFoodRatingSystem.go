@@ -39,7 +39,7 @@ func (h *foodHeap) Pop() interface{} {
 	return x
 }
 
-func Constructor(foods []string, cuisines []string, ratings []int) FoodRatings {
+func FoodRatingsConstructor(foods []string, cuisines []string, ratings []int) FoodRatings {
 	this := FoodRatings{
 		cuisine2Heap: make(map[string]*foodHeap),
 		foodRates:    make(map[string]int),
@@ -94,7 +94,7 @@ func (this *FoodRatings) HighestRated(cuisine string) string {
 }
 
 func main() {
-	obj := Constructor(
+	obj := FoodRatingsConstructor(
 		[]string{"kimchi", "miso", "sushi", "moussaka", "ramen", "bulgogi"},
 		[]string{"korean", "japanese", "japanese", "greek", "japanese", "korean"},
 		[]int{9, 12, 8, 15, 14, 7},
