@@ -12,7 +12,7 @@ type stackNode struct {
 	minSoFar int
 }
 
-func Constructor() MinStack { return MinStack{last: nil} }
+func MinStackConstructor() MinStack { return MinStack{last: nil} }
 
 func (this *MinStack) Push(val int) {
 	var newNode stackNode
@@ -47,7 +47,7 @@ func min(a, b int) int {
 }
 
 func main() {
-	obj := Constructor()
+	obj := MinStackConstructor()
 	obj.Push(-2)
 	obj.Push(0)
 	obj.Push(-3)
