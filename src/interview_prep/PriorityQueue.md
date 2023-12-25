@@ -5,7 +5,7 @@
 | problem                                                                                      | code                                                                                                | solutions | my notes |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-----------|----------|
 | 🟡 [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/DesignFoodRatingSystem.go) |
-| 🟡 [LRU Cache](https://leetcode.com/problems/lru-cache/)                                     | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LRUCache.go)               |
+| 🟡 [LRU Cache](https://leetcode.com/problems/lru-cache/)                                     | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LRUCacheMinHeap.go)        |
 
 ### notes:
 
