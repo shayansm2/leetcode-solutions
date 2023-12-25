@@ -24,7 +24,7 @@ func (h *callStatHeap) Pop() interface{} {
 	return x
 }
 
-type LRUCache struct {
+type LRUCacheMinHeap struct {
 	keyValueStore map[int]int
 	callHistory   map[int]int
 	callCounter   int
@@ -32,10 +32,10 @@ type LRUCache struct {
 	capacity      int
 }
 
-func Constructor(capacity int) LRUCache {
+func LRUCacheMinHeapConstructor(capacity int) LRUCacheMinHeap {
 	minHeap := make(callStatHeap, 0)
 	heap.Init(&minHeap)
-	return LRUCache{
+	return LRUCacheMinHeap{
 		keyValueStore: make(map[int]int),
 		callHistory:   make(map[int]int),
 		callCounter:   0,
@@ -44,7 +44,7 @@ func Constructor(capacity int) LRUCache {
 	}
 }
 
-func (this *LRUCache) Get(key int) int {
+func (this *LRUCacheMinHeap) Get(key int) int {
 	this.callCounter++
 
 	value, found := this.keyValueStore[key]
@@ -52,6 +52,11 @@ func (this *LRUCache) Get(key int) int {
 		return -1
 	}
 
+	defer this.updateCounter(key)
+	return value
+}
+
+func (this *LRUCacheMinHeap) updateCounter(key int) {
 	this.callHistory[key] = this.callCounter
 
 	stat := callStat{
@@ -60,11 +65,9 @@ func (this *LRUCache) Get(key int) int {
 	}
 
 	heap.Push(&this.minHeap, stat)
-
-	return value
 }
 
-func (this *LRUCache) Put(key int, value int) {
+func (this *LRUCacheMinHeap) Put(key int, value int) {
 	this.callCounter++
 
 	this.keyValueStore[key] = value
@@ -83,7 +86,7 @@ func (this *LRUCache) Put(key int, value int) {
 	}
 }
 
-func (this *LRUCache) findDeleteKey() int {
+func (this *LRUCacheMinHeap) findDeleteKey() int {
 	for {
 		minItem := heap.Pop(&this.minHeap).(callStat)
 		accurateCounter, found := this.callHistory[minItem.key]
@@ -94,13 +97,13 @@ func (this *LRUCache) findDeleteKey() int {
 	}
 }
 
-func (this *LRUCache) del(key int) {
+func (this *LRUCacheMinHeap) del(key int) {
 	delete(this.keyValueStore, key)
 	delete(this.callHistory, key)
 }
 
 func main() {
-	lRUCache := Constructor(2)
+	lRUCache := LRUCacheMinHeapConstructor(2)
 	lRUCache.Put(1, 1)           // cache is {1=1}
 	lRUCache.Put(2, 2)           // cache is {1=1, 2=2}
 	fmt.Println(lRUCache.Get(1)) // return 1
@@ -111,7 +114,7 @@ func main() {
 	fmt.Println(lRUCache.Get(3)) // return 3
 	fmt.Println(lRUCache.Get(4)) // return 4
 
-	lRUCache = Constructor(2)
+	lRUCache = LRUCacheMinHeapConstructor(2)
 	fmt.Println(lRUCache.Get(2))
 	lRUCache.Put(2, 6)
 	fmt.Println(lRUCache.Get(1))
