@@ -15,9 +15,13 @@
 | 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)        | encoding and decoding concepts                                  | `implementation`, encode, decode  |                                
 | 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LongestConsecutiveSequence.go) | hash set, implementing range with hash map                      | ⭐⭐⭐ creative solution             |
 
-[//]: # (# leetcode questions:)
+# Leetcode questions:
 
-# cracking the coding interview questions
+| problem                                                                    | code                                                                                              | solutions | my notes |
+|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-----------|----------|
+| 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/MergeSortedArray.java) | array     |
+
+# Cracking the coding interview questions
 
 ### (Chapter 1: Arrays and Strings)
 
