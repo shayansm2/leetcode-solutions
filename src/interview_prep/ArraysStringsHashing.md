@@ -19,9 +19,9 @@
 
 ### Array / String
 
-| problem                                                                    | code                                                                                              | solutions | my notes |
-|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-----------|----------|
-| 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/MergeSortedArray.java) | array     |
+| problem                                                                    | code                                                                                            | solutions | my notes |
+|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-----------|----------|
+| 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MergeSortedArray.java) | array     |
 | 🟢 Remove Element                                                          |
 | 🟢 Remove Duplicates from Sorted Array                                     |
 | 🟢 Remove Duplicates from Sorted Array II                                  |
