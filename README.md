@@ -3,7 +3,6 @@
 The aim of this personal (and public) repository is to share my answers to leetcode questions.
 
 - 🇱 My leetcode account: [leetcode.com/shayansm/](https://leetcode.com/shayansm/)
-  ![LeetCode_Rewind_2023.png](./LeetCode_Rewind_2023.png)
 - ✅ My solved problems:
     - 🟢 [Easy](./src/easy/README.md)
     - 🟡 [Medium](./src/medium/README.md)
@@ -20,3 +19,5 @@ The aim of this personal (and public) repository is to share my answers to leetc
     1. 📘 A Common-Sense Guide to Data Structures and Algorithms
     2. 📙 Introduction to Algorithms CLRS
     3. 📗 Cracking the Coding Interview
+
+![LeetCode_Rewind_2023.png](./LeetCode_Rewind_2023.png)
