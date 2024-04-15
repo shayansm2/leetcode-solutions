@@ -19,15 +19,15 @@
 
 ### Array / String
 
-| problem                                                                                                      | code                                                                                                       | solutions         | my notes |
-|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|-------------------|----------|
-| 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                   | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MergeSortedArray.java)            | array and pointer |          |
-| 🟢 [Remove Element](https://leetcode.com/problems/remove-element/)                                           | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveElement.java)               | array and pointer |          |
-| 🟢 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveDuplicatesSortedArray.java) | array and pointer |          |
-| 🟡 Remove Duplicates from Sorted Array II                                                                    |                                                                                                            |                   |          |
-| 🟢 Majority Element                                                                                          |
-| 🟡 Rotate Array                                                                                              |
-| 🟢 Best Time to Buy and Sell Stock                                                                           |
+| problem                                                                                                            | code                                                                                                                                                                                                                                                  | solutions                                      | my notes |
+|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|----------|
+| 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                         | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MergeSortedArray.java)                                                                                                                                                       | array and pointer                              |          |
+| 🟢 [Remove Element](https://leetcode.com/problems/remove-element/)                                                 | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveElement.java)                                                                                                                                                          | array and pointer                              |          |
+| 🟢 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)       | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveDuplicatesSortedArray.java)                                                                                                                                            | array and pointer                              |          |
+| 🟡 [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [java (1 pointer)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/RemoveDuplicatesSortedArrayII.java) and [go (2 pointer)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/RemoveDuplicatesSortedArrayII.go) | array and pointer, two pointer (fast and slow) |          |
+| 🟢 Majority Element                                                                                                |
+| 🟡 Rotate Array                                                                                                    |
+| 🟢 Best Time to Buy and Sell Stock                                                                                 |
 
 # Cracking the coding interview questions
 
