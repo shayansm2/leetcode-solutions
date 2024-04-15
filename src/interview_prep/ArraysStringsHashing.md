@@ -19,12 +19,12 @@
 
 ### Array / String
 
-| problem                                                                    | code                                                                                            | solutions | my notes |
-|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-----------|----------|
-| 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MergeSortedArray.java) | array     |
-| 🟢 Remove Element                                                          |
-| 🟢 Remove Duplicates from Sorted Array                                     |
-| 🟢 Remove Duplicates from Sorted Array II                                  |
+| problem                                                                    | code                                                                                            | solutions         | my notes |
+|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------------|----------|
+| 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MergeSortedArray.java) | array and pointer |          |
+| 🟢 [Remove Element](https://leetcode.com/problems/remove-element/)         | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveElement.java)    | array and pointer |          |
+| 🟢 Remove Duplicates from Sorted Array                                     |                                                                                                 |                   |          |
+| 🟢 Remove Duplicates from Sorted Array II                                  |                                                                                                 |                   |          |
 
 # Cracking the coding interview questions
 
