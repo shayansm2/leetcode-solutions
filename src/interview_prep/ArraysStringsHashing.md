@@ -30,7 +30,7 @@
 | 🟢 Best Time to Buy and Sell Stock                                                                                 |
 | 🟡 Best Time to Buy and Sell Stock 2                                                                               |
 | 🟡 [Jump Game](https://leetcode.com/problems/jump-game/)                                                           | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/JumpGame.java)                                                                                                                                                             | array and pointer                                                                                                         |
-
+| 🟡 [Jump Game II](https://leetcode.com/problems/jump-game-ii/)                                                     | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/JumpGameII.java)                                                                                                                                                           | array and pointer                                                                                                         |
 # Cracking the coding interview questions
 
 ### (Chapter 1: Arrays and Strings)
