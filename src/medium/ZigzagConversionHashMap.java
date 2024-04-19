@@ -3,7 +3,7 @@ package medium;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ZigzagConversion {
+public class ZigzagConversionHashMap {
     public String convert(String s, int numRows) {
         int row = 1;
         int direction = 1;
