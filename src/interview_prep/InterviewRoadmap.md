@@ -6,7 +6,7 @@
 - Sliding Window
 - [Linked List](./LinkedList.md)
 - Binary Search
-- Trees
+- [Trees](./Trees.md)
 - Tries
 - Backtracking
 - [Heap / Priority Queue](./PriorityQueue.md)
