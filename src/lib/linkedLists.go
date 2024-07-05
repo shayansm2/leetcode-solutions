@@ -26,10 +26,26 @@ func (head *ListNode) Show() {
 	fmt.Println(representation)
 }
 
-func CreateLinkedListFromArray(array []int) *ListNode {
+func CreateLinkedListFromArrayReverse(array []int) *ListNode {
 	var curNode *ListNode = nil
 	for i := len(array) - 1; i >= 0; i-- {
 		curNode = &(ListNode{Val: array[i], Next: curNode})
 	}
 	return curNode
+}
+
+func CreateLinkedListFromArrayStraight(array []int) *ListNode {
+	if len(array) == 0 {
+		return nil
+	}
+
+	result := &ListNode{array[0], nil}
+	current := result
+
+	for i := 1; i < len(array); i++ {
+		current.Next = &ListNode{array[i], nil}
+		current = current.Next
+	}
+
+	return result
 }
