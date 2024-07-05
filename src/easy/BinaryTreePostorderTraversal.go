@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "../lib"
 	"fmt"
+	. "leetcode-solutions/src/lib"
 )
 
 func postorderTraversal(root *TreeNode) []int {

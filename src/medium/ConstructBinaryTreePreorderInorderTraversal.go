@@ -1,6 +1,6 @@
 package main
 
-import . "../lib"
+import . "leetcode-solutions/src/lib"
 
 func buildTree(preorder []int, inorder []int) *TreeNode {
 	if len(preorder) == 0 {

@@ -1,8 +1,8 @@
 package main
 
 import (
-	. "../lib"
 	"fmt"
+	. "leetcode-solutions/src/lib"
 )
 
 type TreeNodeStat struct {

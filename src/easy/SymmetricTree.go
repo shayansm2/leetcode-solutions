@@ -1,6 +1,6 @@
 package main
 
-import . "../lib"
+import . "leetcode-solutions/src/lib"
 
 func isSymmetric(root *TreeNode) bool {
 	return areInverted(root.Left, root.Right)

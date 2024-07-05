@@ -1,6 +1,9 @@
 package main
 
-import "strconv"
+import (
+	. "leetcode-solutions/src/lib"
+	"strconv"
+)
 
 func tree2str(root *TreeNode) string {
 	var result string

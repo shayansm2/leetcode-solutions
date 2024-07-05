@@ -1,11 +1,9 @@
 package main
 
-import "fmt"
-
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
+import (
+	"fmt"
+	. "leetcode-solutions/src/lib"
+)
 
 func middleNode(head *ListNode) *ListNode {
 	end := head

@@ -1,6 +1,6 @@
 package main
 
-import . "../lib"
+import . "leetcode-solutions/src/lib"
 
 func swapNodes(head *ListNode, k int) *ListNode {
 	KthNodePointerFromBeginning := head

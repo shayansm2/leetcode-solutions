@@ -3,20 +3,21 @@ package main
 import (
 	"container/heap"
 	"fmt"
+	. "leetcode-solutions/src/lib"
 )
 
-type IntHeap []int
-
-func (heap IntHeap) Len() int           { return len(heap) }
-func (heap IntHeap) Less(i, j int) bool { return heap[i] < heap[j] }
-func (heap IntHeap) Swap(i, j int)      { heap[i], heap[j] = heap[j], heap[i] }
-func (heap *IntHeap) Push(x any)        { *heap = append(*heap, x.(int)) }
-func (heap *IntHeap) Pop() any {
-	old := *heap
-	last := old[heap.Len()-1]
-	*heap = old[:heap.Len()-1]
-	return last
-}
+//type IntHeap []int
+//
+//func (heap IntHeap) Len() int           { return len(heap) }
+//func (heap IntHeap) Less(i, j int) bool { return heap[i] < heap[j] }
+//func (heap IntHeap) Swap(i, j int)      { heap[i], heap[j] = heap[j], heap[i] }
+//func (heap *IntHeap) Push(x any)        { *heap = append(*heap, x.(int)) }
+//func (heap *IntHeap) Pop() any {
+//	old := *heap
+//	last := old[heap.Len()-1]
+//	*heap = old[:heap.Len()-1]
+//	return last
+//}
 
 func topKFrequent(nums []int, k int) []int {
 	frequency := make(map[int]int)

@@ -1,7 +1,7 @@
 package main
 
 import (
-	. "../lib"
+	. "leetcode-solutions/src/lib"
 )
 
 func maxLevelSum(root *TreeNode) int {

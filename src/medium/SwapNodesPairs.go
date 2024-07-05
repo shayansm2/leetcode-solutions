@@ -1,6 +1,6 @@
 package main
 
-import . "../lib"
+import . "leetcode-solutions/src/lib"
 
 func swapPairs(head *ListNode) *ListNode {
 	if head == nil || head.Next == nil {
