@@ -12,7 +12,7 @@ type LRUCache struct {
 	linkedList *list.List
 }
 
-func Constructor(capacity int) LRUCache {
+func LRUCacheConstructor(capacity int) LRUCache {
 	return LRUCache{
 		keyValue:   map[int]int{},
 		keyNode:    make(map[int]*list.Element),
@@ -64,7 +64,7 @@ func (this *LRUCache) delLRU() {
  */
 
 func main() {
-	lRUCache := Constructor(2)
+	lRUCache := LRUCacheConstructor(2)
 	lRUCache.Put(1, 1)           // cache is {1=1}
 	lRUCache.Put(2, 2)           // cache is {1=1, 2=2}
 	fmt.Println(lRUCache.Get(1)) // return 1
@@ -75,7 +75,7 @@ func main() {
 	fmt.Println(lRUCache.Get(3)) // return 3
 	fmt.Println(lRUCache.Get(4)) // return 4
 
-	lRUCache = Constructor(2)
+	lRUCache = LRUCacheConstructor(2)
 	fmt.Println(lRUCache.Get(2))
 	lRUCache.Put(2, 6)
 	fmt.Println(lRUCache.Get(1))
