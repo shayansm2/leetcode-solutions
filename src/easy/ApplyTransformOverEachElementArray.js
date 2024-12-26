@@ -12,5 +12,10 @@ var map = function(arr, fn) {
 };
 
 console.log(map([1,2,3], n=>n+1));
+console.log([1,2,3].map(n=>n+1));
+
 console.log(map([1,2,3], (n,i)=>n+i));
+console.log([1,2,3].map((n,i) => n+i))
+
 console.log(map([1,2,3], function constant() { return 42; }));
+console.log([1,2,3].map(()=>42))
