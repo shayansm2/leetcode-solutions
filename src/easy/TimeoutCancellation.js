@@ -7,7 +7,7 @@
 var cancellable = function (fn, args, t) {
   let canceled = false;
   setTimeout(() => {
-    if (!canceled) fn(args);
+    if (!canceled) fn(...args);
   }, t);
   return () => (canceled = true);
 };
