@@ -2,25 +2,30 @@
 
 ### Arrays and Hashing
 
-| problem                                                                                              | code                                                                                                    | solutions                                                       | my notes                          |
-|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------|
-| 🟢 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                           | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ContainsDuplicate.php)          | hash map or hash set                                            |
-| 🟢 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                     | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidAnagram.py)                 | hash map or sort string                                         |
-| 🟢 [Two Sum](https://leetcode.com/problems/two-sum/)                                                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/TwoSum.go)                       | hash map                                                        |
-| 🟡 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                   | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/GroupAnagrams.py)              | hash map or sorted string                                       |
-| 🟡 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestElementArray.go)     | sort or heap queue or quick select or counting (bucket) sort    | ⭐                                 |                               
-| 🟡 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TopKFrequentElements.go)       | hash map + heap queue or quick select or counting (bucket) sort | ⭐⭐ full of ds, good for interview |
-| 🟡 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ProductArrayExceptSelf.go)     | array                                                           |
-| 🟡 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ValidSudoku.go)                |                                                                 |
-| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)             | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)        | encoding and decoding concepts                                  | `implementation`, encode, decode  |                                
-| 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LongestConsecutiveSequence.go) | hash set, implementing range with hash map                      | ⭐⭐⭐ creative solution             |
+| problem                                                                                                                | code                                                                                                     | solutions                                                       | my notes                            |
+| ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------- |
+| 🟢 [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/)                               | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MergeStringsAlternately.go)       | like merge sort                                                 |
+| 🟢 [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/)             | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/GreatestCommonDivisorStrings.go)  | GCD                                                             | creative solution exists            |
+| 🟢 [Kids With the Greatest Number of Candies](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/KidsWithGreatestNumberCandies.go) | array                                                           |                                     |
+| 🟢 [Can Place Flowers](https://leetcode.com/problems/can-place-flowers/)                                               | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/CanPlaceFlowers.go)               | array                                                           |                                     |
+|                                                                                                                        |                                                                                                          |                                                                 |
+| 🟢 [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                             | [php](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ContainsDuplicate.php)           | hash map or hash set                                            |
+| 🟢 [Valid Anagram](https://leetcode.com/problems/valid-anagram/)                                                       | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidAnagram.py)                  | hash map or sort string                                         |
+| 🟢 [Two Sum](https://leetcode.com/problems/two-sum/)                                                                   | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/TwoSum.go)                        | hash map                                                        |
+| 🟡 [Group Anagrams](https://leetcode.com/problems/group-anagrams/)                                                     | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/GroupAnagrams.py)               | hash map or sorted string                                       |
+| 🟡 [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)                   | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/KthLargestElementArray.go)      | sort or heap queue or quick select or counting (bucket) sort    | ⭐                                  |
+| 🟡 [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)                                   | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/TopKFrequentElements.go)        | hash map + heap queue or quick select or counting (bucket) sort | ⭐⭐ full of ds, good for interview |
+| 🟡 [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)                         | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ProductArrayExceptSelf.go)      | array                                                           |
+| 🟡 [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                                                         | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ValidSudoku.go)                 |                                                                 |
+| 🟡 [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)                               | [py](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EncodeDecodeStrings.py)         | encoding and decoding concepts                                  | `implementation`, encode, decode    |
+| 🟡 [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)                         | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/LongestConsecutiveSequence.go)  | hash set, implementing range with hash map                      | ⭐⭐⭐ creative solution            |
 
 # Leetcode questions:
 
 ### Array / String
 
 | problem                                                                                                                                    | code                                                                                                                                                                                                                                                  | solutions                                                                                                                 | my notes |
-|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|----------|
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------- |
 | 🟢 [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                                                 | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MergeSortedArray.java)                                                                                                                                                       | array and pointer                                                                                                         |          |
 | 🟢 [Remove Element](https://leetcode.com/problems/remove-element/)                                                                         | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveElement.java)                                                                                                                                                          | array and pointer                                                                                                         |          |
 | 🟢 [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)                               | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/RemoveDuplicatesSortedArray.java)                                                                                                                                            | array and pointer                                                                                                         |          |
@@ -40,7 +45,7 @@
 ### (Chapter 1: Arrays and Strings)
 
 | problem                    | leetcode problem                                                                                                                                          | code                                                                                                                                                                                                                             | solutions | my notes |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|----------|
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | -------- |
 | ⚠️ 1.1 Is Unique           | 🟢 [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)                                                                           | [php (hash map)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ContainsDuplicate.php)                                                                                                                        |
 | 1.2 Check Permutation      | 🟢 [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/), [567. Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ValidAnagram.py)                                                                                                                                      |
 | 1.3 URLify                 |                                                                                                                                                           |                                                                                                                                                                                                                                  |
@@ -56,7 +61,7 @@ covered data structures and algorithms:
 1. hash map
 2. hash set
 3. sorting
-4. [heap](https://en.wikipedia.org/wiki/Heap_(data_structure))
+4. [heap](<https://en.wikipedia.org/wiki/Heap_(data_structure)>)
 5. [quick select](https://en.wikipedia.org/wiki/Quickselect)
 6. [quick sort](https://visualgo.net/en/sorting)
 
@@ -152,7 +157,7 @@ function quickSort(list, left, right) is
                            // e.g., left + floor(rand() % (right − left + 1))
     pivotIndex  := partition(list, left, right, pivotIndex)
     return select(list, left, pivotIndex − 1, k)
-    return select(list, pivotIndex + 1, right, k) 
+    return select(list, pivotIndex + 1, right, k)
 ```
 
 #### quick select
@@ -175,7 +180,7 @@ function select(list, left, right, k) is
     else if k < pivotIndex then
         return select(list, left, pivotIndex − 1, k)
     else
-        return select(list, pivotIndex + 1, right, k) 
+        return select(list, pivotIndex + 1, right, k)
 ```
 
 [other quick select questions](https://leetcode.com/tag/quickselect/)
@@ -218,4 +223,24 @@ func longestConsecutive(nums []int) int {
 	return res
 }
 
+```
+
+### GCD (greates common divisor)
+
+```go
+func GCD(a, b int) int {
+    for b != 0 {
+        a, b = b, a % b
+    }
+    return a
+}
+```
+
+```go
+func gcd(a, b int) int {
+    if b == 0 {
+        return a
+    }
+    return gcd(b, a % b)
+}
 ```
