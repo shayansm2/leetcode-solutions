@@ -3,7 +3,7 @@
 - [Arrays, Strings and Hashing](./ArraysStringsHashing.md)
 - [Stacks and Queues](./StackQueue.md)
 - [Two Pointers](./TwoPointers.md)
-- Sliding Window
+- [Sliding Window](./SlidingWindow.md)
 - [Linked List](./LinkedList.md)
 - Binary Search
 - [Trees](./Trees.md)
