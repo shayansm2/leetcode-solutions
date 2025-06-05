@@ -21,6 +21,7 @@
 | 🟢 [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                             | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MoveZeroesTwoPointer.go)               | slow and fast pointers |
 | 🟢 [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                       | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/IsSubsequence.py)                  | slow and fast pointers |
 | 🟡 [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/ContainerWithMostWaterTwoPointer.go) | start and end pointers | ⭐⭐⭐ creative solution and beautiful [proof](https://leetcode.com/problems/container-with-most-water/solutions/6099/yet-another-way-to-see-what-happens-in-the-o-n-algorithm/?envType=study-plan-v2&envId=leetcode-75) |
+| 🟡 [Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/MaxNumberKSumPairs.go)               | start and end pointer  | like "two sum" problem                                                                                                                                                                                                   |
 
 ---
 
