@@ -44,6 +44,15 @@
 | 🟢 [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/FindIndexFirstOccurrenceString.java)                                                                                                                                         | array                                                                                                                     |
 | 🔴 [Text Justification](https://leetcode.com/problems/text-justification/)                                                                 | [java](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/hard/TextJustification.java)                                                                                                                                                      | implementation                                                                                                            |
 
+### Hash Map / Set
+
+| problem                                                                                                    | code                                                                                                     | solutions | my notes |
+| ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | --------- | -------- |
+| 🟢 [Find the Difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/)   | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/FindDifferenceTwoArrays.go)       |
+| 🟢 [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)             | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/UniqueNumberOccurrences.go)       |
+| 🟡 [Determine if Two Strings Are Close](https://leetcode.com/problems/determine-if-two-strings-are-close/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/DetermineTwoStringsAreClose.go) |
+| 🟡 [Equal Row and Column Pairs](https://leetcode.com/problems/equal-row-and-column-pairs/)                 | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/EqualRowColumnPairs.go)         |
+
 # Cracking the coding interview questions
 
 ### (Chapter 1: Arrays and Strings)
