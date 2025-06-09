@@ -24,6 +24,14 @@
 | 🟡 [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | [javascript](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/RemovingStarsFromString.js) |
 | 🟡 [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)                     | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/AsteroidCollision.go)               |
 
+# Leetcode questions:
+
+### Queues
+
+| problem                                                                            | code                                                                                         | solution | my notes |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------- | -------- |
+| 🟢 [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/NumberRecentCalls.go) |
+
 # cracking the coding interview questions
 
 ### Chapter 3: Stacks and Queues
