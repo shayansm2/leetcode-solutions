@@ -24,13 +24,12 @@
 | 🟡 [Removing Stars From a String](https://leetcode.com/problems/removing-stars-from-a-string/) | [javascript](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/RemovingStarsFromString.js) |
 | 🟡 [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)                     | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/AsteroidCollision.go)               |
 
-# Leetcode questions:
-
 ### Queues
 
-| problem                                                                            | code                                                                                         | solution | my notes |
-| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | -------- | -------- |
+| problem                                                                            | code                                                                                         | solution                                                                                                                              | my notes |
+| ---------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | -------- |
 | 🟢 [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/NumberRecentCalls.go) |
+| 🟡 [Dota2 Senate](https://leetcode.com/problems/dota2-senate/)                     | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/Dota2Senate.go)     | 1 queue and [2 queues](https://leetcode.com/problems/dota2-senate/solutions/3483399/simple-diagram-explanation/?source=submission-ac) |
 
 # cracking the coding interview questions
 
