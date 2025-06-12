@@ -3,7 +3,7 @@
 ### Binary Tree General
 
 | problem                                                                                                                                                    | code                                                                                                                    | solution | my notes |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|----------|----------|
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | -------- | -------- |
 | 🟢 [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                                             | [js](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MaximumDepthBinaryTree.js)                       |
 | 🟢 [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                   | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/SameTree.py)                                 |
 | 🟢 [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)                                                                                 | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/InvertBinaryTree.py)                         |
@@ -19,6 +19,10 @@
 | 🟢 [Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)                                                                   | [python](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/CountCompleteTreeNodes.py)                   |
 | 🟡 [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                                       |
 
-### Binary Tree BFS
+### Binary Tree - DFS
 
-### Binary Search Tree
+| problem                                                                                              | code                                                                                                                                                                                                                   | solution | my notes |
+| ---------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------- |
+| 🟢 [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)       | [js (DFS)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MaximumDepthBinaryTree.js), [go (recursive)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/MaximumDepthBinaryTree.go) |
+| 🟢 [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)                           | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/LeafSimilarTrees.go)                                                                                                                            |
+| 🟡 [Count Good Nodes in Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/CountGoodNodesBinaryTree.go)                                                                                                                  |
