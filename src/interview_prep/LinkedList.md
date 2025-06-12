@@ -16,6 +16,17 @@
 | [🔴 Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)                         |                                                                                                 |          |          |
 | [🔴 Reverse Nodes In K Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                 |                                                                                                 |          |          |
 
+# Leetcode
+
+### Linked List
+
+| problem                                                                                                              | code                                                                                                                                                                                                                                                 | solution | my notes                                                                                           |
+| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------- |
+| [🟡 Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/) | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/DeleteMiddleNodeLinkedList.go)                                                                                                                                              |          |                                                                                                    |
+| [🟡 Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                                       | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/OddEvenLinkedList.go)                                                                                                                                                       |          | `o(1)` space complexity does not mean in-place operations. you can create additional linked lists. |
+| [🟢 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)                                         | [go](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/easy/ReverseLinkedList.go)                                                                                                                                                         |          |                                                                                                    |
+| [🟡 Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/)             | [go (duplicate linked list)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/MaximumTwinSumLinkedList.go), [typescript (stack)](https://github.com/shayansm2/leetcodeSolutions/blob/main/src/medium/MaximumTwinSumLinkedList.ts) |
+
 # cracking the coding interview questions
 
 ### Chapter 2: Linked Lists
